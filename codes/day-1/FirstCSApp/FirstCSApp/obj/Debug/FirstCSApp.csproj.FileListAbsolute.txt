@@ -1,0 +1,10 @@
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\FirstCSApp\bin\Debug\FirstCSApp.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\FirstCSApp\bin\Debug\FirstCSApp.exe
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\FirstCSApp\bin\Debug\FirstCSApp.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\FirstCSApp\bin\Debug\SampleLibrary.dll
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\FirstCSApp\bin\Debug\SampleLibrary.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\FirstCSApp\obj\Debug\FirstCSApp.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\FirstCSApp\obj\Debug\FirstCSApp.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\FirstCSApp\obj\Debug\FirstCSApp.csproj.CopyComplete
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\FirstCSApp\obj\Debug\FirstCSApp.exe
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\FirstCSApp\obj\Debug\FirstCSApp.pdb

@@ -1,0 +1,5 @@
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\SampleLibrary\bin\Debug\SampleLibrary.dll
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\SampleLibrary\bin\Debug\SampleLibrary.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\SampleLibrary\obj\Debug\SampleLibrary.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\SampleLibrary\obj\Debug\SampleLibrary.dll
+E:\siemens_ta_22ndMarch2021\codes\day-1\FirstCSApp\SampleLibrary\obj\Debug\SampleLibrary.pdb

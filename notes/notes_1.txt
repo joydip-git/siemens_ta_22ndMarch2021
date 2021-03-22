@@ -1,3 +1,13 @@
+COM (Component Object Model)
+	Languages: VC++, VB (6.0), VFoxpro etc.
+	Library:
+	ASP
+	ADO, DAO, RDO
+
+J++: Java + C++
+
+2001 --> C#
+2002 --> 
 .NET Framework:
 	an environment, using which you can create an app, compile that app, test the app, deploy the app, and run the app
 	printf/scanf/ cin/cout<--built-in methods
@@ -17,7 +27,7 @@
 .NET Languages: C#, VB.NET, VC++.NET,VF#.NET,Python, Ruby, R langaues...
 
 Types of applications that can be created using .NET Framework:
-	1. Desktop apps (UWP)
+	1. Desktop apps ( and UWP)
 		a. console based (Console)
 		b. UI based (Windows Forms, WPF)
 	2. Web apps:
@@ -41,8 +51,18 @@ CIL/MSIL/IL --> independent of any O/S or machine [output file - standard window
 
 Step-2: Runtime phase
 [>executable file name.exe]
-IL code --> JIT compiler --> machine level code --> executed
+IL code --> JIT compiler --> machine level code --> executed (runtime will call Main method)
 JIT: Just-in-Time ( a runtime compiler)
+
+C# code		VB			IL code
+----------------------------------------------------------------
+int		Integer			int32
+
+Common Type System (CTS)
+bool --> Boolean
+int--->Int32
+
+Common Language Specification (CLS)
 
 Types of Extension:
 	- Executable
@@ -84,6 +104,7 @@ Year		Version			CLR		Visual Studio		C#
 	- modular
 	- light-weight/crisp
 	- NuGet
+	- CLI (Command Line Interface)
 
 .Net Core Framework:
 	1. Library: CoreFX (modular)
@@ -111,11 +132,47 @@ console (windows), library (portable), web apps (cross platfrom)
 2022 - .NET 7.0
 2023 - .NET 8.0 (LTS)
 
+
+Application structure:
+	Solution directory
+		- solution file (.sln) - container for application(s)
+		- project/application directory (development level complete application information)
+			- project file (*.csproj/*.vbproj)
+			- config file (App.config)
+			- code file (Program.cs)
+			- properties directory
+				- AssemblyInfo.cs (partial application information, deployment..)
+
+.NET Framework tools (majority):
+C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX <version-number> Tools
+
+.NET Framework libraries:
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+
 C# - Programming language
 	1. OOP language
 	2. case sensitive
 	3. type-safe language
 	4. .NET Compliant language
+
+>csc /target:exe Sample.cs 
+>Sample.exe My name is joydip
+
+//Main methid signatures:
+static void Main()
+static void Main(string[] args)
+
+static int Main(string[] args)
+static int Main()
+
+1. How to create an executable application (console)
+2. how to create a library (also add in the same soluion containing other applications)
+3. How to add reference to a library from an executable
+4. how to use the namespace name in executable's code of that library
+5. what is namespace?
+
+
+
 
 
 
