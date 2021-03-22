@@ -1,0 +1,124 @@
+.NET Framework:
+	an environment, using which you can create an app, compile that app, test the app, deploy the app, and run the app
+	printf/scanf/ cin/cout<--built-in methods
+	hedaer files, stdio.h, iostream.h etc...
+	#include<stdio.h>
+
+	Console -->WriteLine/Write
+		-->ReadLine/Read/ReadKey
+	NOT Header file, say Library (*.dll)
+
+	1. Library - Base/Framework class library (BCL/FCL)
+	2. Tools (compilers - C# compiler - CSC, VB compiler - VBC, etc...)
+	3. Runtime (Common Language Runtime - CLR)
+	4. Data Access Technology: ADO.NET (ActiveX Data Object.NET)
+	5. Web App Technology: ASP.NET (Active Server Pages.NET)
+
+.NET Languages: C#, VB.NET, VC++.NET,VF#.NET,Python, Ruby, R langaues...
+
+Types of applications that can be created using .NET Framework:
+	1. Desktop apps (UWP)
+		a. console based (Console)
+		b. UI based (Windows Forms, WPF)
+	2. Web apps:
+		a. Web Page app
+		b. Web api app
+		c. Single Page app
+	3. IOT
+	4. Mobile (Xamarin framework)
+	etc.
+
+IDEs to create application:
+	a. Visual Studio 20XX
+	b. Visual Studio Code
+
+.NET Application Execution/Lifecycle:
+
+Step-1: Compilation phase
+source code (C#/VB/VC++/F#..) -->compiler (CSC/VBC/VCC/F...) --> Common Intermediate Language Code (CIL)
+[>csc /target:exe Sample.cs]
+CIL/MSIL/IL --> independent of any O/S or machine [output file - standard windows PE 32/64 bit file, is also known as Assembly]
+
+Step-2: Runtime phase
+[>executable file name.exe]
+IL code --> JIT compiler --> machine level code --> executed
+JIT: Just-in-Time ( a runtime compiler)
+
+Types of Extension:
+	- Executable
+		- with Main method
+		- when compiled creates output file with extension .exe
+		- stand-alone component
+		- you can run directly
+	- Library
+		 - without Main method
+		 - when compiled creates output file with extension .dll
+		 - reusable component
+		 - You can't run this type of app directly, they are supposed to be used from some other library or executable
+
+Tool:
+ILDASM  -> Intermediate Language Dis-assembler
+	-> to view the IL code
+	-> .exe, .dll etc.
+
+History: (.NET Framework - legacy)
+	
+Year		Version			CLR		Visual Studio		C#
+-----------------------------------------------------------------------------------------
+2002		1.0			1.0		VS 2002			1.0
+2003		1.1			1.1		VS 2003			1.0
+2005		2.0			2.0		VS 2005			2.0
+2007		3.0			2.0		VS 2005			3.0
+2008		3.5			2.0		VS 2008			3.0
+2010		4.0			4.0		VS 2010			4.0
+2012/2013	4.5.1/4.5.2		4.0		VS 2012/2013		5.0
+2015		4.6.1/4.6.2		4.0		VS 2015			6.0
+2017		4.7.1/4.7.2		4.0		VS 2017			7.0
+2019		4.8 (last version)	4.0		VS 2019			8.0
+
+.NET Core (2016 - stable release 2017)
+	- created from scratch
+	- open source
+	- cross platfrom
+	- container ready
+	- modular
+	- light-weight/crisp
+	- NuGet
+
+.Net Core Framework:
+	1. Library: CoreFX (modular)
+	2. Runtime: CoreCLR
+	3. Compilers: Roslyn (C# and VB)
+	4. Data Access Tehcnology: ADO.NET and Entity Framework Core
+	5. Web app: Asp.Net Core
+
+	Language - C#:
+	C# 7.0 and C# 8.0 and C# 9.0
+
+console (windows), library (portable), web apps (cross platfrom)
+------------------------------------------------------------------------------------------
+		1.0
+		1.1
+		2.0
+		2.1 (LTS)
+		2.2
+		3.0
+		3.1 (LTS)
+		5.0 (Nov 2020)
+
+2020 - .NET 5.0 (.NET Core 5.0)
+2021 - .NET 6.0 (LTS)  
+2022 - .NET 7.0
+2023 - .NET 8.0 (LTS)
+
+C# - Programming language
+	1. OOP language
+	2. case sensitive
+	3. type-safe language
+	4. .NET Compliant language
+
+
+
+
+
+
