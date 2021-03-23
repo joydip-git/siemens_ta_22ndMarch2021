@@ -1,0 +1,5 @@
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Utilities\bin\Debug\CalculatorApp.Utilities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Utilities\bin\Debug\CalculatorApp.Utilities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Utilities\obj\Debug\CalculatorApp.Utilities.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Utilities\obj\Debug\CalculatorApp.Utilities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Utilities\obj\Debug\CalculatorApp.Utilities.pdb

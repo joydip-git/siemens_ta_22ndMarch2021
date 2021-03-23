@@ -5,3 +5,10 @@ E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInterafa
 E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\obj\Debug\CalculatorApp.UserInteraface.csproj.CoreCompileInputs.cache
 E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\obj\Debug\CalculatorApp.UserInteraface.exe
 E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\obj\Debug\CalculatorApp.UserInteraface.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\bin\Debug\CalculatorApp.Manager.dll
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\bin\Debug\CalculatorApp.CalculationLogic.dll
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\bin\Debug\CalculatorApp.Manager.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\bin\Debug\CalculatorApp.CalculationLogic.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\obj\Debug\CalculatorApp.UserInteraface.csproj.CopyComplete
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\bin\Debug\CalculatorApp.Utilities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\bin\Debug\CalculatorApp.Utilities.pdb

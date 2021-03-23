@@ -1,4 +1,6 @@
 ﻿using System;
+using CalculatorApp.Manager;
+using CalculatorApp.Utilities;
 
 namespace CalculatorApp.UserInteraface
 {

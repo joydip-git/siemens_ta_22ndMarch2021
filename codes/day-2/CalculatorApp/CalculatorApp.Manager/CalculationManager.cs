@@ -1,6 +1,8 @@
-﻿namespace CalculatorApp.UserInteraface
+﻿using CalculatorApp.CalculationLogic;
+
+namespace CalculatorApp.Manager
 {
-    class CalculationManager
+    public class CalculationManager
     {
         public static string Calculate(int calculationChoice, int first, int second)
         {
@@ -32,6 +34,6 @@
                     break;
             }
             return result;
-        }        
+        }
     }
 }

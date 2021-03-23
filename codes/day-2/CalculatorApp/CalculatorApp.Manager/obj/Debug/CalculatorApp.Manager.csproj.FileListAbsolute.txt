@@ -1,0 +1,9 @@
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Manager\bin\Debug\CalculatorApp.Manager.dll
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Manager\bin\Debug\CalculatorApp.Manager.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Manager\bin\Debug\CalculatorApp.CalculationLogic.dll
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Manager\bin\Debug\CalculatorApp.CalculationLogic.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Manager\obj\Debug\CalculatorApp.Manager.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Manager\obj\Debug\CalculatorApp.Manager.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Manager\obj\Debug\CalculatorApp.Manager.csproj.CopyComplete
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Manager\obj\Debug\CalculatorApp.Manager.dll
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.Manager\obj\Debug\CalculatorApp.Manager.pdb

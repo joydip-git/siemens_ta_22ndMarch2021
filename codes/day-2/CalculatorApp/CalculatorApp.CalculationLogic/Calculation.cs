@@ -1,6 +1,6 @@
-﻿namespace CalculatorApp.UserInteraface
+﻿namespace CalculatorApp.CalculationLogic
 {
-    class Calculation
+    public class Calculation
     {
         public static int Add(int first, int second)
         {
