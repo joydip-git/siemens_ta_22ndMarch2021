@@ -23,6 +23,7 @@ namespace CalculatorApp.UserInteraface
             //string input =  Console.ReadLine();//1 --> "1"
             //int choice = int.Parse(input);
             //return choice;
+            //Convert.ToInt32(Console.ReadLine());
             return int.Parse(Console.ReadLine());
         }
 
