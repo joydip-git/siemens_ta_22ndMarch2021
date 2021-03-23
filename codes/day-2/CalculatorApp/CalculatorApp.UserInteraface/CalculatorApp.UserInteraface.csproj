@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculation.cs" />
+    <Compile Include="CalculationManager.cs" />
     <Compile Include="Conversion.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="UI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
