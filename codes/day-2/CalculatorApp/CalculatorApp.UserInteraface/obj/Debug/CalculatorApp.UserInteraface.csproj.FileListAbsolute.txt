@@ -1,0 +1,7 @@
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\bin\Debug\CalculatorApp.UserInteraface.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\bin\Debug\CalculatorApp.UserInteraface.exe
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\bin\Debug\CalculatorApp.UserInteraface.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\obj\Debug\CalculatorApp.UserInteraface.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\obj\Debug\CalculatorApp.UserInteraface.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\obj\Debug\CalculatorApp.UserInteraface.exe
+E:\siemens_ta_22ndMarch2021\codes\day-2\CalculatorApp\CalculatorApp.UserInteraface\obj\Debug\CalculatorApp.UserInteraface.pdb

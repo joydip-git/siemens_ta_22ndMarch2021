@@ -263,6 +263,56 @@ static int Add(int first, int second)
 }
 
 
+SOLID:
+S-->Single Responsibilty
+
+Conversion:
+
+A. VT --> VT
+
+1. Lower Range VT -- > Higher Range VT (Implicit)
+	int a = 10;
+	long l = a;
+
+2. Higher Range VT -- > Lower Range VT (Explicit)
+	a. casting:
+		long l = 1234567890123;
+		int a = (int)l;
+
+		i.  checked keyword:
+			int a = checked((int)l);
+			this wil throw exception if there is a chance of overflow
+		ii. unchecked keyword:
+			int a = (int)l;
+			or
+			int a = unchecked((int)l);
+	b. Convert class methods
+		long l = 1234567890123;
+		int a = Convert.ToInt32(l); //int a = checked((int)l);
+		checks whether the conversion is possible or not
+		you will get exception if the conversion is not possible
+		
+B. VT --> RT
+	1. VT --> RT (implcit/explicit)
+		int a = 10;
+		string str = a.ToString();
+
+	2. RT --> VT (Explicit)
+
+		String to somthing:
+		------------------------------------
+		a. Convert:
+		string value = "100";
+		int x = (int)value;
+		int x = Convert.ToInt32(value);
+
+		b. Parse:
+		//use Parse method of built-in value type data types to convert ONLY string type to the 		target 	type
+		int x = int.Parse(value);
+        	Console.WriteLine(x);
+
+C. RT-->RT:
+
 
 
 
