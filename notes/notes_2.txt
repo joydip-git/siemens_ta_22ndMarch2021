@@ -1,0 +1,291 @@
+1. Data Type
+2. Operators
+3. control flow statements
+4. Data Type Conversions
+5. Array
+6. Methods and it's arguments and keywords
+7. struct
+8. enum
+9. Nullable Types
+
+					Data Types:
+----------------------------------------------------------------------------------------------
+		Value Types					Reference Types
+----------------------------------------------------------------------------------------------
+built-in		user-defined			built-in		user-defined
+----------------------------------------------------------------------------------------------
+byte			struct				string			class
+sbyte			enum				Object			interface
+short							Array			delegates
+ushort										events
+int
+uint
+long
+ulong
+
+float		float f = 12.34F;
+decimal		decimal d = 12.34M;
+double		double d1 = 12.34D; d1 = 12.34;
+
+char
+bool
+
+DateTime
+
+class Program{
+	//data member (global)
+	int m; //this will get a default value (0)
+	int? b; //null
+	string name; //null
+
+	//constructor of class assigns default value to those data members
+	public Program()
+	{
+		//code (m = 0; b= null; name=null;)
+	}
+
+static void Main(){
+	//x is value type variable
+	//int is bulit-in value type data type
+	int x = 30;
+	int y = x;
+	x = 20;
+	// y = x;
+	CW(x);
+	CW(y);
+
+	//string is built-in reference type data type
+	// name is reference type variable
+	string name = "Joydip";	
+	string copyName = name;
+	copyName += "Mondal";
+	CW(copyName);
+	CW(name);
+	Test();
+}
+static void Test(int a)
+{
+	//Local variables in C# do not get any default value
+	//if you did not assign anything then there is nothing in those variables
+	//you can't use them 
+	//method/function scope
+	int a = 0;
+	int? b = 0;
+	string str = null;
+
+	if(x>y)
+	{
+		//control flow statement scope (inner function)
+		int res=0;
+		if()
+		{
+			int n=0;
+		}
+	}
+
+	int number = 12; //number --> identifier or variable also a local variable
+	Console.WriteLine(number);
+}
+}
+
+Source Code -- (CSC)--> IL Code (Int32 number = 12;)
+IL code -- (JIT)--> Machine level code --> executed (Main)
+
+Arithmatic:
+	+, -, *, /, % etc.
+Asignment:
+	=, +=, -=, *=, /=
+Logical operator
+	&& (and), || (or)
+Equality:
+	==, !=, >=, <==, >, <
+
+Unary
+	int a = 10;
+	a++; 	//a = a+1;
+	a--;	//a = a-1;
+
+Binary
+	int a = 10;
+	int b = 20;
+	int c = a + b;
+
+Ternary (?:)
+	int a = 10;
+	int b = 20;
+	int c = 0;
+	if(a>b)
+		c = a;
+	else
+		c = b;
+	c = a > b ? a : b;
+
+?? <--- what is this operator (null coalesce)
+
+Nullable Types:
+	//null string
+	string name = null;
+	//....
+	name = "Siemens";
+	//Empty string (whitespace character in the heap)
+	name = "";
+	
+	//int x = null; //not permitted
+
+	//Nullable type
+	int? x = null; //permitted
+
+
+id	name	price(Decimal)description(varchar)
+----------------------------------------
+1	laptop	10000	ajsahkjdh
+2	mobile	NULL	cjshkjdhA
+
+
+//decimal? mobilePrice = null;
+
+//the following will allow to store either NULL or decimal value in mobilePrice
+Nullable<decimal> mobilePrice = null;
+mobilePrice = 1000.00M;
+
+if(mobilePrice.HasValue)
+{
+	//CW(mobilePrice.Value)	
+	CW(mobilePrice)	
+}
+
+Nullable<char>
+Nullable<string> //<-- wrong
+string name = null;
+
+Control flow:
+	conditional:
+		if, if..else
+		while, do..while
+		switch...case
+
+		int a = 10;
+		int b = 20;
+		int c = 0;
+		if(a > b)		
+		{
+			c = a;
+		}
+		else
+		{
+			c = b;
+		}
+
+		int x = 0;
+		while(x>0)
+		{
+			cw(x);
+			x++;
+		}
+
+		char toContinue='n';
+		do{
+			//data access opeartions
+		CW("Continue?");
+		
+		}while(toContinue !='n' && toContinue =='y');
+
+		//int dataOperationChoice = 1/2/3/4;
+		//char dataOperationChoice = 'C'/'R'/'U'/'D';
+		//string dataOperationChoice="Add"/"Get"/
+		DateTime current = DateTime.Now;
+		switch(dataOperationChoice)
+		switch(current.Month)
+		{
+			case "January"
+			case 1:
+			case "Add":
+			case 'C' || 'c':
+				//code
+				break;
+			case 'R'||'r':
+				break;
+
+			default:
+				CW("enter proper choice");
+				break;
+		}
+	
+	iterational:
+		for, foreach
+
+	Jump instructions:
+		break, continute, goto
+
+---MENU----
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+Enter a choice[1/2/3/4]: 1
+
+Enter 1st Value: 12
+Enter 2nd Value: 13
+
+Result of addition of 12 and 13 is 25
+
+Continue[y/Y/n/N]: Y
+
+---MENU----
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+Enter a choice[1/2/3/4]: 2
+
+Enter 1st Value: 12
+Enter 2nd Value: 2
+
+Result of subtraction of 12 and 2 is 10
+
+Continue[y/Y/n/N]: Y
+
+.......................
+
+static void Main()
+{
+
+}
+static int Add(int first, int second)
+{
+	return (first+second);
+}
+<access-specifier> [<static>] <return type> MethodName([datatype arg1],[data type arg2],..)
+{
+	//lines of instruction
+}
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
