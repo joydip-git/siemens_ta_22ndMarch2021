@@ -1,0 +1,6 @@
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\HRMSApp\bin\Debug\HRMSApp.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\HRMSApp\bin\Debug\HRMSApp.exe
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\HRMSApp\bin\Debug\HRMSApp.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\HRMSApp\obj\Debug\HRMSApp.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\HRMSApp\obj\Debug\HRMSApp.exe
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\HRMSApp\obj\Debug\HRMSApp.pdb
