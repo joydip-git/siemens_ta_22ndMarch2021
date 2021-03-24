@@ -1,0 +1,72 @@
+1. class
+2. object
+3. constructor
+4. members
+5. access specifiers
+6. Property (ex. HasValue, Value...)
+7. methods
+
+8. namespace
+9. Array
+10. enum
+11. struct
+12. method argument related keywords (ref, out)
+
+1. how do you co-relate a group of data and represent a real time entity?
+	- create a class containing data members that will respresent an entity
+2. is there any protection to that group of data? (*)
+	i would like to have protection of data
+3. are those group of data temporary? 
+	the group of data should be not be deallocated/erased when the function is over.
+	- create an instance of a class
+	- use new keyword and create an instance of class and invoke parameterized ctor to pass the required data inside the class, so that the data can be copied from the stack and saved in the heap as part of the object
+
+C++: OOP
+OOAD
+
+4. how do you return group of values from a function?
+
+
+new Trainee();
+--> look at the class (blueprint) for a trinee object to be created
+--> runtime checks the class and finds out that memory blocks for 4 data members have to be allocated in the heap. runtime does that.
+--> after that the runtime calls function (part of the class) to initialize the members (memory blocks) with default value (such as 0 for numerical, false for boolean, null for reference types etc.)
+--> heap pointer (NOP - Next Object Pointer) is adjusted
+--> returns the reference of the instance (Set of values for that class's object)
+
+NOTE:
+If you don't write any comstructor inside the class explicitly, then CSC compiler supplies the DEFAULT (parameterless) ctor
+But, if you have written ANY ctor explicitly inside the class, then CSC compiler DON'T supply the default ctor
+
+access specifiers:
+controls access of members of the class as well as the class itself
+by default every member (data and methods) of class is 'private'
+
+class
+	--> characterestics ( data members/fields -> global)
+	--> functionalities ( methods/functions)
+
+Encapsulation --> technique of putting data (charaterestics) and methods (functionalities) inside the class
+
+Data abstraction: protect data (memory blocks that store data) inside the class using access specifiers
+	- private --> the data is accessible within th class body (scope), NOT outside the class declaration (such as through reference variable)
+	- protected -->
+
+
+Singleton pattern where we use private constructors
+
+create a class to represent employee
+--> id, name, project, dept, basicPay, daPay, hraPay
+--> 2 ctors 
+--> method to calculate salary of an employee and return the salary
+
+create an object of an employee and print the salary
+
+
+
+
+
+
+
+
+

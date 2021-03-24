@@ -1,0 +1,7 @@
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\Class_Object\bin\Debug\Class_Object.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\Class_Object\bin\Debug\Class_Object.exe
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\Class_Object\bin\Debug\Class_Object.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\Class_Object\obj\Debug\Class_Object.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\Class_Object\obj\Debug\Class_Object.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\Class_Object\obj\Debug\Class_Object.exe
+E:\siemens_ta_22ndMarch2021\codes\day-3\OOPDemos\Class_Object\obj\Debug\Class_Object.pdb
