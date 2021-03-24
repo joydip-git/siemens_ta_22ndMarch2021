@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HRMSApp
+﻿namespace HRMSApp
 {
     class Employee
     {
+        #region Data Members
         int employeeId;
         string employeeName;
         string employeeProjectName;
@@ -15,7 +10,10 @@ namespace HRMSApp
         decimal employeeDaPayemnt;
         decimal employeeHraPayment;
         decimal employeeTotalSalary;
+        #endregion
 
+        #region Constructors
+        //ctor code snippet
         public Employee()
         {
 
@@ -30,7 +28,10 @@ namespace HRMSApp
             this.employeeDaPayemnt = employeeDaPayemnt;
             this.employeeHraPayment = employeeHraPayment;
         }
+        #endregion
 
+        #region Methods
+       
         public decimal CalculateSalary()
         {
             employeeTotalSalary = employeeBasicPayment + employeeDaPayemnt + employeeHraPayment;
@@ -42,5 +43,6 @@ namespace HRMSApp
             //C# 6.0 - .Net Frameowrk 4.6
             return $"Name:{this.employeeName}, Id: {employeeId}, Project: {employeeProjectName}, Salary:{employeeTotalSalary}";
         }
+        #endregion
     }
 }

@@ -1,12 +1,8 @@
-1. Data Type
+1. Data Types
 2. Operators
 3. control flow statements
 4. Data Type Conversions
-5. Array
-6. Methods and it's arguments and keywords
-7. struct
-8. enum
-9. Nullable Types
+5. Nullable Types
 
 					Data Types:
 ----------------------------------------------------------------------------------------------

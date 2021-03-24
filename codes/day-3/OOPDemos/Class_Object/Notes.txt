@@ -1,0 +1,15 @@
+﻿//for (int i = 0; i < 2; i++)
+            //{
+            Trainee traineeeReference = GetInput();
+            //traineeeReference.Trainee();
+            string information = traineeeReference.GetInfo();
+            Console.WriteLine(information);
+            //traineeeReference = null;
+            //WeakReference<Trainee> weakReference = new WeakReference<Trainee>(traineeeReference);
+            //SqlConnection
+            //}
+            //code
+            //traineeeReference.GetInfo();
+
+            //GC.Collect();
+            //GC.Collect();

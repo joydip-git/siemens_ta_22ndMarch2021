@@ -8,7 +8,7 @@ namespace Class_Object
 {
     class Trainee
     {
-        private int traineeId;
+        private readonly int traineeId; 
         private double traineeMarks;
         private string traineeName;
         private string traineeDepartmentName;
@@ -22,14 +22,19 @@ namespace Class_Object
             //traineeName = null;
             //traineeDepartmentName = null;
         }
+        Trainee(int id)
+        {
+            traineeId = id;
+        }
         //number of args
         //data type of args
         //position of args
         //parajeterized constructor
-        public Trainee(int id, string name, string departmentName, double marks) : this()
+        //C# 4.0 (optional arguments with default value)
+        public Trainee(int id, string name = null, string departmentName = null, double marks = 0) : this(id)
         {
             //this.traineeId;
-            traineeId = id;
+            //traineeId = id;
             traineeName = name;
             traineeDepartmentName = departmentName;
             traineeMarks = marks;
@@ -38,5 +43,69 @@ namespace Class_Object
         {
             return "Name: " + traineeName + ", Id: " + traineeId + ", Department: " + traineeDepartmentName + ", Marks: " + traineeMarks;
         }
+
+
+        //Property/Property Function
+        public string TraineeDepartmentName
+        {
+            //public void SetDepartment(string departmentName)
+            //set
+            //{
+            //    traineeDepartmentName = value;
+            //}
+            set => traineeDepartmentName = value;
+            //public string GetDepartment()
+            //get
+            //{
+            //    return traineeDepartmentName;
+            //}
+            get => traineeDepartmentName;
+        }
+
+
+        public string TraineeName
+        {
+            //set
+            //{
+            //    traineeName = value;
+            //}
+            //get
+            //{
+            //    return traineeName;
+            //}
+            set => traineeName = value;
+            get => traineeName;
+        }
+        public double TraineeMarks
+        {
+            /*
+            set
+            {
+                traineeMarks = value;
+            }
+            get
+            {
+                return traineeMarks;
+            }
+            */
+            set => traineeMarks = value;
+            get => traineeMarks;
+        }
+
+        //public int TraineeId
+        //{
+        //    //get
+        //    //{
+        //    //    return traineeId;
+        //    //}
+        //}
+
+        //public int TraineeId
+        //{        
+        //    get => traineeId;
+        //}
+        
+        //for properties with JUST GET accessor
+        public int TraineeId => traineeId;
     }
 }

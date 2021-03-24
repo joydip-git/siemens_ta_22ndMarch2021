@@ -5,12 +5,11 @@
 5. access specifiers
 6. Property (ex. HasValue, Value...)
 7. methods
-
-8. namespace
-9. Array
-10. enum
-11. struct
-12. method argument related keywords (ref, out)
+8. new features of C#: named argument (4.0), optional argument with default value (4.0) and string interpolation (6.0)
+9. this
+10: how to invoke other constructors from a constructor inside a class 
+	public <Ctor-Name>():this(..){}
+11. readonly keyword
 
 1. how do you co-relate a group of data and represent a real time entity?
 	- create a class containing data members that will respresent an entity
@@ -62,6 +61,24 @@ create a class to represent employee
 
 create an object of an employee and print the salary
 
+
+SOLID:
+S: Single Responsibility
+O: Open Close Principle
+
+Properties:
+group of two methods: setter and getter functions
+data type: depends on the data member for which this poperty is declared
+accessors: get and set/ get/ set
+	-- only get accessor: read-only property
+	-- only set accessor: write-only property
+access specifiers of accessors:
+	-- public (by default)
+
+readonly: data members can be declared with readonly keyword
+	that data member can be assigned ONLY through constructor
+	gurantees one time assignment of some data member
+	the property for this data member can not have set accessor, can have only get accessor
 
 
 
