@@ -8,3 +8,166 @@
 7. polymorphism
 8. virtual and override keyword
 9. static members
+
+//single dimensional array
+//1. type of elements: value type (int)
+
+//Array arr = new Array(int,3);
+<data-type>[] arr = new <data-type>[3];
+int[] arr = new int[3];
+arr[0] = 10;
+arr[1] = 20;
+arr[2] = 30;
+
+for(int index=0; index<arr.Length; index++)
+{
+	CW(arr[index]);
+}
+
+//2. type of elements: reference type (class objects, strings etc.)
+
+string[] places = new string[3];
+places[0] = "Bangalore";
+places[1] = "Chennai";
+places[2] = "Pune";
+
+Trainee[] trainees = new Trainee[3];
+trainees[0] = new Trainee(....);
+trainees[1] = new Trainee(....);
+trainees[2] = new Trainee(....);
+
+for(int index=0; index<places.Length; index++)
+{
+	CW(places[index]);
+}
+for(int index=0; index<trainees.Length; index++)
+{
+	Trainee traineeRef = trainees[index];
+	CW(traineeRef.TraineeName);
+}
+//Two dimensional
+int[,] arr = new int[2,3];
+arr[0,0]=10;
+arr[0,1]=20;
+arr[0,2]=30;
+
+arr[1,0]=40;
+arr[1,1]=50;
+arr[1,2]=60;
+
+int[,,] arr = new int[2,3,4];
+Dimension No.	Dimension Name		Return value of GetLength (arr.GetLength(<dim_no>)
+------------------------------------------------------------------------------------------
+0		Row			2
+1		Column			3
+2		Depth			4
+
+arr.Rank --> number of dimensions in the array (2)
+
+//arr.GetLength(<dimension_no>); --> returns you the length of that dimension
+arr.GetLength(0); --> returns number of rows
+arr.GetLength(1); --> returns number of columns per row
+arr.GetLength(2); --> returns number of depths per column
+
+
+for(int rowIndex=0; rowIndex<2; rowIndex++)
+{
+	for(int columnIndex=0; columnIndex<3; columnIndex++)
+	{
+		CW(arr[rowIndex,columnIndex]);
+	}
+}
+//Or
+for(int rowIndex=0; rowIndex<arr.GetLength(0); rowIndex++)
+{
+	for(int columnIndex=0; columnIndex<arr.GetLength(1); columnIndex++)
+	{
+		CW(arr[rowIndex,columnIndex]);
+	}
+}
+
+	Array.Copy()
+	arr.CopyTo()
+
+(<data-type-of-other arrays> <dim_of_your_array_of_arrays> <dim_of_other_arrays> = new ...;
+int[][] jagged = new int[3][];
+
+int[] arr1 = new int[]{10,20};
+int[] arr2 = new int[]{30,40,50};
+int[] arr3 = new int[]{60,70,80,90};
+
+jagged[0] = arr1;
+jagged[1] = arr2;
+jagged[2] = arr3;
+
+for(int jaggedIndex=0;jaggedIndex<jagged.Length;jaggedIndex++)
+{
+	//int[] a = jagged[jaggedIndex];
+	/*
+	for(int index=0;index<a.Length;index++)
+	{
+		cw(a[index]);
+	}
+	*/
+	for(int index=0;index<jagged[jaggedIndex].Length;index++)
+	{
+		cw(jagged[jaggedIndex][index]);
+	}
+}
+
+Note:
+	All the arrays whose references are stored in the Jagged Array, should be similar type, i.e., 		-	containing similar type elements
+	-	of similar dimension
+
+
+jagged[0] = new int[]{10,20};
+jagged[1] = new int[,]{{10,20,30}, {40,50,60}}; <-- ERROR
+jagged[2] = new string[]{"bangalore"}; <-- ERROR
+
+'params' keyword rules:
+1. you can't declare any array with 'params' keyword, ONLY the array as part of the function argument list
+
+Main()
+{
+	params int[] arr = new int[]{1,2,3};<--ERROR
+}
+
+class Sample
+{
+	int a;
+	params int[] arr;<--ERROR
+}
+
+SplitSentence(string input, params char[] splitters) <--Correct
+
+2. The parameter array should be the LAST in the argument list
+SplitSentence(params char[] splitters, string input) <--ERROR
+SplitSentence(string input, params char[] splitters) <--Correct
+
+3. there can be ONLY ONE parameter array in a function's argument list
+SplitSentence(string input, params char[] splitters, params char[] otherSplitters)<--ERROR
+SplitSentence(string input, params char[] allSplitters) <--Correct
+
+1. create a class => Student
+2. No data members, just a method which will accept name of student and marks. This method calculates the average of marks and returns the same back to Main method, when called.
+3. create two student objects in Main
+4. call the Student class's method
+max possible number of marks: 5
+min possible number of marks: 0
+no of arguments >=0 and <=5
+
+Employee app:
+Now, create an array which will store reference of several employee objects (say, 4)
+accept values from user console
+create separate method for that and in that method create individual employee instance and return the same in Main, where you will store that reference in the created array
+
+after that iterate through the array, pick up one employee at a time and print the salary along with name of that employee
+Salary of <emp_name1> is <emp-salary1>
+Salary of <emp_name2> is <emp-salary2>
+Salary of <emp_name3> is <emp-salary3>
+Salary of <emp_name4> is <emp-salary4>
+
+
+
+
+

@@ -1,0 +1,6 @@
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\ParamArray\bin\Debug\ParamArray.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\ParamArray\bin\Debug\ParamArray.exe
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\ParamArray\bin\Debug\ParamArray.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\ParamArray\obj\Debug\ParamArray.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\ParamArray\obj\Debug\ParamArray.exe
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\ParamArray\obj\Debug\ParamArray.pdb

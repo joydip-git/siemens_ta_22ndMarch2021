@@ -1,0 +1,6 @@
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\AarrayOfArraysDemo\bin\Debug\AarrayOfArraysDemo.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\AarrayOfArraysDemo\bin\Debug\AarrayOfArraysDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\AarrayOfArraysDemo\bin\Debug\AarrayOfArraysDemo.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\AarrayOfArraysDemo\obj\Debug\AarrayOfArraysDemo.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\AarrayOfArraysDemo\obj\Debug\AarrayOfArraysDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-4\ArrayDemo\AarrayOfArraysDemo\obj\Debug\AarrayOfArraysDemo.pdb
