@@ -1,0 +1,9 @@
+1. constructor execution sequence, base keyword
+2. polymorphism
+3. virtual and override keyword
+4. static members
+
+5. namespace
+6. enum
+7. struct
+8. method argument related keywords (ref, out)

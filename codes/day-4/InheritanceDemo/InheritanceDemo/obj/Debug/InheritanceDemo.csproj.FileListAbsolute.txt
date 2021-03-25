@@ -1,0 +1,6 @@
+E:\siemens_ta_22ndMarch2021\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-4\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-4\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-4\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.pdb

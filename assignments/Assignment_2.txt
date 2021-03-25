@@ -1,0 +1,33 @@
+1. create a class => Student
+2. No data members, just a method which will accept name of student and marks. This method calculates the average of marks and returns the same back to Main method, when called.
+3. create two student objects in Main
+4. call the Student class's method
+max possible number of marks: 5
+min possible number of marks: 0
+no of arguments >=0 and <=5
+
+2. complete the Employee app:
+Now, create an array which will store reference of several employee objects (say, 4)
+accept values from user console
+create separate method for that and in that method create individual employee instance and return the same in Main, where you will store that reference in the created array
+
+after that iterate through the array, pick up one employee at a time and print the salary along with name of that employee
+Salary of <emp_name1> is <emp-salary1>
+Salary of <emp_name2> is <emp-salary2>
+Salary of <emp_name3> is <emp-salary3>
+Salary of <emp_name4> is <emp-salary4>
+
+3. complete the last assignment of Assignment_1 (regarding array)
+
+4. Create two child classes of Employee class: Hr and Developer
+	Hr: gratuityPay
+	Developer: incentivePay, project name
+
+	Use the inherited method to calculate salary in these child classes and then change the code in that method
+
+	public void CalculateSalary(){}
+
+	create now 2 Hr and 2 Developer class objects
+	store them in repo
+	calculate salary
+	iterate through the repo and print name with salary

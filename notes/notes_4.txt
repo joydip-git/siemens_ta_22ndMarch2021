@@ -1,13 +1,22 @@
-1. namespace
-2 Array
-3. enum
-4. struct
-5. method argument related keywords (ref, out)
+1 Array	
+	- how to create
+	- single, multi-dimensional
+	- array of arrays (jagged array)
+	- params keyword (parameter array)
+	- array storing value type values
+	- array storing reference type references
 
-6. inheritance
-7. polymorphism
-8. virtual and override keyword
-9. static members
+2. inheritance
+	- what is?
+	- types: single, multi-level
+	- sealed keyword
+	- what can and can't be inherited
+	
+3. access specifiers:
+	class
+	class members
+
+4. const keyword
 
 //single dimensional array
 //1. type of elements: value type (int)
@@ -148,24 +157,86 @@ SplitSentence(string input, params char[] splitters) <--Correct
 SplitSentence(string input, params char[] splitters, params char[] otherSplitters)<--ERROR
 SplitSentence(string input, params char[] allSplitters) <--Correct
 
-1. create a class => Student
-2. No data members, just a method which will accept name of student and marks. This method calculates the average of marks and returns the same back to Main method, when called.
-3. create two student objects in Main
-4. call the Student class's method
-max possible number of marks: 5
-min possible number of marks: 0
-no of arguments >=0 and <=5
+class access specifiers: 
+	- public: class can be acessed from other classes within the same application/assembly as well as from other applications
+	- internal(default): class can be acessed from other classes within the same application/ assembly
 
-Employee app:
-Now, create an array which will store reference of several employee objects (say, 4)
-accept values from user console
-create separate method for that and in that method create individual employee instance and return the same in Main, where you will store that reference in the created array
+class members access specifiers: 
+	- public: members can be accessed from outside the class code as well as within the class code, also available within in child class code
+	- private(default): members can be accessed from within the same class code ONLY
+	- protected: members can be accessed from within the same class code as well as within the inherited class code, BUT NOT from outside the both class code
+	- internal:  members can be accessed from outside the class code as well as within the class code, also available within in child class code, BUT in the SAME application. Just like public member BUT within the same application. it becomes private w.r.t. other applications
+	 - protected internal/internal protected: members can be accessed from outside the class code as well as within the class code, also available within in child class code, BUT in the SAME application. Just like public member BUT within the same application. it becomes protected w.r.t. other applications. in other application it will be available as inherited member within th child class code
 
-after that iterate through the array, pick up one employee at a time and print the salary along with name of that employee
-Salary of <emp_name1> is <emp-salary1>
-Salary of <emp_name2> is <emp-salary2>
-Salary of <emp_name3> is <emp-salary3>
-Salary of <emp_name4> is <emp-salary4>
+SampleLibrary.dll 
+public class A
+{
+	internal int x; //public and private
+	protected internal int y; //public and protected
+}
+class B:A
+{
+	public B(){ this.x = 10; this.y = 20;}	
+}
+class C
+{
+	public void Foo()
+	{
+		A obj = new A();
+		obj.x = 10; //OKay
+		obj.y = 20;
+	}
+}
+
+SampleExec.exe (reference to SampleLibrary.dll)
+class Test:A
+{
+	public Test(){ this.y = 10; //Okay this.x = 20; //sorry}
+}
+class Program
+{
+	Main()
+	{
+		A obj = new A();
+		obj.x = 10; //Error
+		obj.y = 20; //Error
+
+		Test test = new Test();
+		test.y = 30; //Error
+	}
+}
+
+sealed: 
+	- this keyword is used with class: stops any class from further derivation 
+	- this keyword can be used with properties and methods (conditions apply): ???
+	- this keyword is not used with data members and local variables
+
+readonly:
+	- this keyword is not used with methods, properties(*) and local variables
+	- this keyword is used with data members
+
+base class		child class
+-----------------------------------------
+public			internal
+public			public
+internal		internal
+internal		public <---- ERROR
+
+const:
+	- this keyword can be used with both class's data members and also local variables of methods
+	- when any data member or local variable to a function is declared with const keyword it's value can be never be changed during runtime and also the value to a const data member or local variable must be assigned immediately
+
+class A
+{
+	const int x = 10;
+
+	public void Foo()
+	{		
+		int a;
+		const int z;<--ERROR
+		const int z = 20;
+	}
+}
 
 
 
