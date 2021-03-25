@@ -1,0 +1,10 @@
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.UserInterface\bin\Debug\HRMSAPP.UserInterface.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.UserInterface\bin\Debug\HRMSAPP.UserInterface.exe
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.UserInterface\bin\Debug\HRMSAPP.UserInterface.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.UserInterface\bin\Debug\HRMSAPP.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.UserInterface\bin\Debug\HRMSAPP.Entities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.UserInterface\obj\Debug\HRMSAPP.UserInterface.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.UserInterface\obj\Debug\HRMSAPP.UserInterface.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.UserInterface\obj\Debug\HRMSAPP.UserInterface.csproj.CopyComplete
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.UserInterface\obj\Debug\HRMSAPP.UserInterface.exe
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.UserInterface\obj\Debug\HRMSAPP.UserInterface.pdb
