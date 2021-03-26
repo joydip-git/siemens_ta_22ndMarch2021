@@ -7,3 +7,76 @@
 6. enum
 7. struct
 8. method argument related keywords (ref, out)
+9. conversion between RTs
+
+class A
+{
+	int x;
+	public A(){}
+	public A(int x){ this.x = x;}
+}
+clas B:A
+{
+	int y;
+	public B(){}
+	public B(int x, int y){ this.y = y;}
+}
+
+B obj = new B(10,20);
+
+Ctor Execution Sequence: (Inheritance)
+1. whenever you are calling a constructor (whichever) of a child class to create an instance (of child class), base class's default ctor will be invoked automatically (implicitly) by runtime
+2. You can also instruct runtime to invoke any constructor of base class other than the default ctor, using 'base' keyword
+
+SC -(csc)-> IL -(JIT)-> MLC
+
+POLYMORPHISM:
+	static: the static binding between the caller lines and called methods/operators is figured out during compilation phase. during runtime simply exact method(s)/operator(s) is(are) called.
+	1. operator ovreloading: operators doing diffrerent operations depending on type of operands
+		- "joy"+"mon" (concatination)
+		//joy.concatenate(mon);
+		- 12+10	(addition)
+		//Math.Add(12,10)	
+
+
+	method oevrloading: Methods with same name
+	2. no inheritance involved
+		- single class having methods with same name
+		arguments:
+			- number
+			- data type
+			- position
+	dynamic:which method will be called is decided during rutime
+	3. inheritance involved
+		- base and child having ditto same method (method with same signature - arguments, name, return type all same)
+		- difference lies in implementation (code inside the method)
+
+			Device: virtual void Type()
+
+Mobile:Device		Laptop:Device		Desktop:Device		TypeWriter:Device
+--------------------------------------------------------------------------------------------
+//void Type(){}		//void Type(){}		//void Type(){}		//void Type(){}
+override void Type(){}	override void Type(){}	override void Type(){}	override void Type(){}
+
+			Person: virtual void Cut()
+Butcher			HairStylist		FilmDirector
+----------------------------------------------------------------------
+void Cut()		void Cut()		void Cut()
+override void Cut(){}	override void Cut(){}	override void Cut(){}
+
+Person p = new Butcher() Person p = new HairStylist() Person p = new FilmDirector().Cut()
+p.Cut()			  p.Cut()			p.Cut()
+
+virtual and override (override NOT overwrite)
+	- base class method should be declared with virtual in orde to use override with same method in child
+	- virtual is necessary for override
+	- if base class method is vrtual that doesn't mean you have to mandatorily override the same method in the child (that means, virtual exists without override) 
+
+
+
+
+
+
+
+
+

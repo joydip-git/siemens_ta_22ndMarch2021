@@ -308,6 +308,11 @@ B. VT --> RT
         	Console.WriteLine(x);
 
 C. RT-->RT:
+	1. upcasting: you can store address of any child class of a base class, into a reference variable of base class -- this is implicit conversion
+	2. downcasting: you store the address of child class object back into a reference variable of the same child class from the reference variable of base class -- this is explicit conversion
+		a. casting
+		b. as operator
+	Note: downcasting is possible if upcasting has been performed earlier
 
 
 		

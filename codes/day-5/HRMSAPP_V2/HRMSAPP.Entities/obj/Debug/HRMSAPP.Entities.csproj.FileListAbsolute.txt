@@ -1,0 +1,11 @@
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.Entities\bin\Debug\HRMSAPP.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.Entities\bin\Debug\HRMSAPP.Entities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.Entities\obj\Debug\HRMSAPP.Entities.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.Entities\obj\Debug\HRMSAPP.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-4\HRMSAPP\HRMSAPP.Entities\obj\Debug\HRMSAPP.Entities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-5\HRMSAPP_V2\HRMSAPP.Entities\bin\Debug\HRMSAPP.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-5\HRMSAPP_V2\HRMSAPP.Entities\bin\Debug\HRMSAPP.Entities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-5\HRMSAPP_V2\HRMSAPP.Entities\obj\Debug\HRMSAPP.Entities.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-5\HRMSAPP_V2\HRMSAPP.Entities\obj\Debug\HRMSAPP.Entities.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-5\HRMSAPP_V2\HRMSAPP.Entities\obj\Debug\HRMSAPP.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-5\HRMSAPP_V2\HRMSAPP.Entities\obj\Debug\HRMSAPP.Entities.pdb
