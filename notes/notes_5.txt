@@ -1,15 +1,10 @@
 1. constructor execution sequence, base keyword
 2. polymorphism
 3. virtual and override keyword
-4. static members
+4. abstract
+5. conversion between RTs
 
-5. namespace
-6. enum
-7. struct
-8. method argument related keywords (ref, out)
-9. conversion between RTs
-
-class A
+class A //:Object
 {
 	int x;
 	public A(){}
@@ -72,6 +67,34 @@ virtual and override (override NOT overwrite)
 	- virtual is necessary for override
 	- if base class method is vrtual that doesn't mean you have to mandatorily override the same method in the child (that means, virtual exists without override) 
 
+
+inheritance is also way of making sure that every child class has same functionalities (As well as common data)
+inheritance with dynamic polymorphism ensures that not only child classes have the same set of functionalities, but also child classes can provide new implementations of those set of functionalities if they want and then the child functionalities will be called (instead of base functionalities in case of upcasting)
+
+DataAccess:
+	- data
+	- GetData();
+
+SqlDataAccess:
+	 - connectionPath (data member)
+	 - data  (data member) 
+	 - GetData (method)
+
+XmlFileDataAccess
+	- filePath (data member)
+	- data (data member) 
+	- GetData (method)
+
+
+I want to make sure that every child class has same set of functionalities, and child classes must implement those (no longer optional, rather it's mandatory) as well as when the child class objects are created, the child class's methods will be invoked
+
+abstract pattern:
+	abstract class containing some abstract members
+		- methods and properties (NOT constructor and data members)
+
+Side-effect: you can't create instance of an abstract class, since there is atleast one abstract member
+child classes must implement abstract members of abstract base class, otherwise they will become abstract class
+override keyword to implement abstract members of abstract class in child class
 
 
 

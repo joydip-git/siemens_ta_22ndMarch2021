@@ -19,10 +19,18 @@ namespace HRMSAPP.Entities
             this.incentivePayment = incentivePayment;
         }
 
-        public void CalculateSalary()
+        public override void CalculateSalary()
         {
             base.CalculateSalary();
             EmployeeTotalSalary = EmployeeTotalSalary + incentivePayment;
         }
+        /**
+         *  public virtual string GetInformation()
+        {
+            //string template/ templated string/ string interpolation
+            //C# 6.0 - .Net Frameowrk 4.6
+            return $"Name:{this.employeeName}, Id: {employeeId}, Project: {employeeProjectName}, Salary:{employeeTotalSalary}";
+        }
+         */
     }
 }

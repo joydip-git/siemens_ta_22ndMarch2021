@@ -50,12 +50,12 @@
 
         #region Methods
 
-        public void CalculateSalary()
+        public virtual void CalculateSalary()
         {
             employeeTotalSalary = employeeBasicPayment + employeeDaPayemnt + employeeHraPayment;
             //return employeeTotalSalary;
         }
-        public string GetInformation()
+        public virtual string GetInformation()
         {
             //string template/ templated string/ string interpolation
             //C# 6.0 - .Net Frameowrk 4.6

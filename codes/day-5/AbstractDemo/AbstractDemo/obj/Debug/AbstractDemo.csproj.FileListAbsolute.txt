@@ -1,0 +1,7 @@
+E:\siemens_ta_22ndMarch2021\codes\day-5\AbstractDemo\AbstractDemo\bin\Debug\AbstractDemo.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-5\AbstractDemo\AbstractDemo\bin\Debug\AbstractDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-5\AbstractDemo\AbstractDemo\bin\Debug\AbstractDemo.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-5\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-5\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-5\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-5\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.pdb

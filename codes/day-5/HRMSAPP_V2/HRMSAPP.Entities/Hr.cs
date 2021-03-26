@@ -18,18 +18,19 @@ namespace HRMSAPP.Entities
         {
             this.gratuityPayment = gratuityPayment;
         }
-        public void CalculateSalary()
+        public override void CalculateSalary()
         {
             base.CalculateSalary();
             EmployeeTotalSalary = EmployeeTotalSalary + gratuityPayment;
             //return employeeTotalSalary;
         }
-        //public string GetInformation()
-        //{
-        //    //string template/ templated string/ string interpolation
-        //    //C# 6.0 - .Net Frameowrk 4.6
-        //    string info = base.GetInformation();
-        //    return $"{info}";
-        //}
+        /**
+        *  public virtual string GetInformation()
+       {
+           //string template/ templated string/ string interpolation
+           //C# 6.0 - .Net Frameowrk 4.6
+           return $"Name:{this.employeeName}, Id: {employeeId}, Project: {employeeProjectName}, Salary:{employeeTotalSalary}";
+       }
+        */
     }
 }

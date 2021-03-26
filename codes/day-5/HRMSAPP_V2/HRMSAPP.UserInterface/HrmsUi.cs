@@ -53,25 +53,27 @@ namespace HRMSAPP.UserInterface
             //InsertRecord(repository);
             //ShowRecords(repository);
 
-            Developer developer = new Developer(1, "anil", "CITA", 1000, 2000, 3000, 4000);
-            Hr hr = new Hr(2, "sunil", "CITA", 1500, 2500, 3500, 4500);
-            PrintInfo(developer);
-            PrintInfo(hr);
+            //Developer developer = new Developer(1, "anil", "CITA", 1000, 2000, 3000, 4000);
+            //Hr hr = new Hr(2, "sunil", "CITA", 1500, 2500, 3500, 4500);
+            //PrintInfo(developer);
+            //PrintInfo(hr);
         }
 
-        static void PrintInfo(Employee employee)
-        {
-            employee.CalculateSalary();
-            Console.WriteLine(employee.GetInformation());
-        }
+        //static void PrintInfo(Employee employee)
+        //{
+        //    employee.CalculateSalary();
+        //    Console.WriteLine(employee.GetInformation());
+        //}   
         /*
         static void PrintInfo(Developer developer)
         {
-
+            developer.CalculateSalary();
+            Console.WriteLine(developer.GetInformation());
         }
         static void PrintInfo(Hr hr)
         {
-
+            hr.CalculateSalary();
+            Console.WriteLine(hr.GetInformation());
         }
         */
         static void ShowRecords(Employee[] repository)
