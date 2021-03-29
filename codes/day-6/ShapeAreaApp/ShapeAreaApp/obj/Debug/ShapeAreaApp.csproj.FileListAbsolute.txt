@@ -1,0 +1,7 @@
+E:\siemens_ta_22ndMarch2021\codes\day-6\ShapeAreaApp\ShapeAreaApp\bin\Debug\ShapeAreaApp.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-6\ShapeAreaApp\ShapeAreaApp\bin\Debug\ShapeAreaApp.exe
+E:\siemens_ta_22ndMarch2021\codes\day-6\ShapeAreaApp\ShapeAreaApp\bin\Debug\ShapeAreaApp.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-6\ShapeAreaApp\ShapeAreaApp\obj\Debug\ShapeAreaApp.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-6\ShapeAreaApp\ShapeAreaApp\obj\Debug\ShapeAreaApp.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-6\ShapeAreaApp\ShapeAreaApp\obj\Debug\ShapeAreaApp.exe
+E:\siemens_ta_22ndMarch2021\codes\day-6\ShapeAreaApp\ShapeAreaApp\obj\Debug\ShapeAreaApp.pdb
