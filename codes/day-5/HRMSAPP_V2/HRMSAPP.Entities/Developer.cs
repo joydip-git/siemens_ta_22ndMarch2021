@@ -22,7 +22,8 @@ namespace HRMSAPP.Entities
         public override void CalculateSalary()
         {
             base.CalculateSalary();
-            EmployeeTotalSalary = EmployeeTotalSalary + incentivePayment;
+            //EmployeeTotalSalary = EmployeeTotalSalary + incentivePayment;
+            employeeTotalSalary = employeeTotalSalary + incentivePayment;
         }
         /**
          *  public virtual string GetInformation()

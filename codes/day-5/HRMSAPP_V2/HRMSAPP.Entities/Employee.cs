@@ -9,7 +9,7 @@
         decimal employeeBasicPayment;
         decimal employeeDaPayemnt;
         decimal employeeHraPayment;
-        decimal employeeTotalSalary;
+        protected decimal employeeTotalSalary;
         #endregion
 
         #region Constructors
@@ -42,7 +42,7 @@
         public decimal EmployeeTotalSalary 
         { 
             get => employeeTotalSalary;
-            protected set => employeeTotalSalary = value;
+            //protected set => employeeTotalSalary = value;
         }
 
         public int EmployeeId => employeeId;

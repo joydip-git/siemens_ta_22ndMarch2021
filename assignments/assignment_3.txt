@@ -22,20 +22,20 @@ Rules: inside the Circle and Triangle class codes you can't write any CW or CR
 
 2. oustanding person
 
-Author:
+abstract Person:
 	- name
+	- public abstract bool IsOutstanding();
+
+concrete Author:Person	
 	- number of books publised
-	- public bool IsOutstanding(){}
+	- public override bool IsOutstanding(){}
 	- string Print(){}
 
-Student:
-	- name
+concrete Student:Person
 	- marks obtained
-	- public bool IsOutstanding()
+	- public override bool IsOutstanding()
 	- string Show(){}
 
-
-bool IsOutstanding()
 
 in Main method:
 	

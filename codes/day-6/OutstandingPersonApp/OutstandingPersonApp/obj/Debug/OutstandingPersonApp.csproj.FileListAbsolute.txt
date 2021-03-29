@@ -1,0 +1,7 @@
+E:\siemens_ta_22ndMarch2021\codes\day-6\OutstandingPersonApp\OutstandingPersonApp\obj\Debug\OutstandingPersonApp.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-6\OutstandingPersonApp\OutstandingPersonApp\obj\Debug\OutstandingPersonApp.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-6\OutstandingPersonApp\OutstandingPersonApp\bin\Debug\OutstandingPersonApp.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-6\OutstandingPersonApp\OutstandingPersonApp\bin\Debug\OutstandingPersonApp.exe
+E:\siemens_ta_22ndMarch2021\codes\day-6\OutstandingPersonApp\OutstandingPersonApp\bin\Debug\OutstandingPersonApp.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-6\OutstandingPersonApp\OutstandingPersonApp\obj\Debug\OutstandingPersonApp.exe
+E:\siemens_ta_22ndMarch2021\codes\day-6\OutstandingPersonApp\OutstandingPersonApp\obj\Debug\OutstandingPersonApp.pdb

@@ -21,7 +21,8 @@ namespace HRMSAPP.Entities
         public override void CalculateSalary()
         {
             base.CalculateSalary();
-            EmployeeTotalSalary = EmployeeTotalSalary + gratuityPayment;
+            //EmployeeTotalSalary = EmployeeTotalSalary + gratuityPayment;
+            employeeTotalSalary = employeeTotalSalary + gratuityPayment;
             //return employeeTotalSalary;
         }
         /**
