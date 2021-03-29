@@ -1,0 +1,49 @@
+1. area of shapes
+abstract class Shape
+{
+	double area;
+	
+}
+
+
+Circle: pi*r*r;
+	- radius
+	- public void CalculateArea(){}
+
+Triangle:0.5*b*h;
+	- tBase
+	- tHeight
+	- public void CalculateArea(){}
+
+double CalculateArea()
+void CalculateArea()
+
+Rules: inside the Circle and Triangle class codes you can't write any CW or CR
+
+2. oustanding person
+
+Author:
+	- name
+	- number of books publised
+
+Student:
+	- name
+	- marks obtained
+
+
+bool IsOutstanding()
+
+in Main method:
+	- create two instances each of two classes (total 4)
+	- print details of the outstanding author/student
+
+
+
+
+
+
+
+
+
+
+
