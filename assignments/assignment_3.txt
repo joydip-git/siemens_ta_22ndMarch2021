@@ -25,10 +25,14 @@ Rules: inside the Circle and Triangle class codes you can't write any CW or CR
 Author:
 	- name
 	- number of books publised
+	- public bool IsOutstanding(){}
+	- string Print(){}
 
 Student:
 	- name
 	- marks obtained
+	- public bool IsOutstanding()
+	- string Show(){}
 
 
 bool IsOutstanding()
