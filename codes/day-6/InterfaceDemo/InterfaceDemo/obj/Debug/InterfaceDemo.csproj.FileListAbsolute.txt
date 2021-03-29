@@ -1,0 +1,7 @@
+E:\siemens_ta_22ndMarch2021\codes\day-6\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-6\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-6\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-6\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-6\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-6\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-6\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.pdb

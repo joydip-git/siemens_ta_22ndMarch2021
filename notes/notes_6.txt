@@ -8,3 +8,129 @@
 	GetHashCode (virtual)
 	ToString (virtual)
 	GetType
+7. interface
+8. multiple inheritance
+
+class B
+{
+	public void Foo(){}
+}
+class C
+{
+	public void Foo(){}
+}
+multiple inheritance of class is not supported in C#
+class A : B, C
+{
+}
+A obj = new A();
+obj.Foo();
+
+
+interface: pure abstract class
+
+access specifiers of interface: public and internal
+access specifiers of members: 
+	by default all members of an interface are public
+	DO NOT USE ANY ACCESS SPECIFIERS WITH INTERFACE MEMBERS
+access modifiers:
+	by default interface members are abstract
+	DO NOT USE ABSTRACT KEYWORD WITH ANY METHOD OR PROPERTY
+
+Characterestics and Rules:
+	- you can't create instance of an interface, though you can declare variable of an interface to store reference of any child class, who implemented that interface (upcasting)
+	- interface provides dynamic ploymorphism also, just like abstract and concrete class
+	- No data members
+	- no static and const members even
+	- no explicit constructor
+	- only properties and methods(abstract)
+	- when implemented in a class, every abstract member must be implemented in the class
+	- otherwise the class will become an abstract class
+	- while implementing interface members NO need to use override keyword
+	- if you do not want to implement any method or property of an interface in the class, at least you have to declare those members with 'public' and 'abstract' keyword
+	- interface can inherit from another interface
+	- you cam implement more than one interface in a class
+	- if you implement common members of multiple interface in a class explicitlty, use <interface-name>.<member-name> syntax without any access specifier (Not even public)
+	- the explicitly implemented members can only be invoked explicitly (through interface reference variable)
+
+public/internal interface IDataAccess
+{
+	void GetData();
+	string Path { set; get; }
+}
+
+public class SqlDataAccess:IDataAccess
+{
+	string databasePath;
+	public void GetData(){//code}
+	public string Path { set => databasePath = value;  get=>databasePath; }
+	public void Print(){//code}
+}
+
+//invoking interface members implicitly
+SqlDataAccess sql = new SqlDataAccess();
+sql.Path="";
+sql.GetData();
+sql.Print(); //class's own member
+
+//invoking interface members explicitly
+IDataAccess dataAccess = sql; //upcasting
+dataAccess.Path ="";
+dataAccess.GetData();
+dataAccess.Print();<--ERROR (you can only invoke interface members through interface reference variable)
+
+/*
+public abstract DatabaseDataAccess : IDataAccess
+{
+	string databasePath;
+	//public void GetData(){//code}
+	public abstract void GetData();
+	public string Path { set => databasePath = value;  get=>databasePath; }
+}
+
+public OracleDataAccess:DatabaseDataAccess
+{
+	public override void GetData(){//code}
+}
+
+public/internal abstract class DataAccess
+{
+	string data;
+	public DataAccess(){}
+	public string Data=>data;
+	public virtual void PrintData(){}
+
+	public abstract void GetData();
+	public abstract string Path { set; get; }
+}
+
+public abstract SqlDataAccess : DataAccess
+{
+	string databasePath;
+	
+	//public override void GetData(){//code}
+	public override string Path { set => databasePath = value;  get=>databasePath; }
+}
+*/
+				dynamic polymorphism
+-------------------------------------------------------------------------------------------------------
+Concrete class			abstract class				interface
+-------------------------------------------------------------------------------------------------------
+
+class Employee			abstract class DataAccess		interface IStorage
+{				{					{
+public virtual void CS(){}	public abstract void GetData();		void Path(string path);
+}				}					}
+class Developer:Employee	classSqlDataAccess:DataAccess		class SqlDataAccess:IStorage
+{				{					{
+public override void CS(){}	public override void GetData(){}	public void Path(string path){}
+}				}					}
+
+
+
+
+
+
+
+
+
