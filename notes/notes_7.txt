@@ -1,0 +1,11 @@
+1. static members
+2. Object class and it's methods:
+	Equals (virtual)
+	GetHashCode (virtual)
+	ToString (virtual)
+	GetType
+3. namespace
+4. method argument related keywords (ref, out)
+5. enum
+6. struct
+7. sealed

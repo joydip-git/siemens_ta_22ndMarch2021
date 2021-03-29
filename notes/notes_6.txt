@@ -1,15 +1,9 @@
-1. static members
-2. namespace
-3. enum
-4. struct
-5. method argument related keywords (ref, out)
-6. Object class and it's methods:
-	Equals (virtual)
-	GetHashCode (virtual)
-	ToString (virtual)
-	GetType
-7. interface
-8. multiple inheritance
+1. interface
+2. multiple inheritance
+3. relationship between classes
+	- is-a (inheritance)
+	- has-a (association)
+
 
 class B
 {
@@ -126,6 +120,33 @@ class Developer:Employee	classSqlDataAccess:DataAccess		class SqlDataAccess:ISto
 public override void CS(){}	public override void GetData(){}	public void Path(string path){}
 }				}					}
 
+
+Customer		Order			Product
+
+
+Person			Mobile
+
+A -- B
+One - One (Composition)
+
+One - Many (Composition/Aggegation)
+
+Many - Many (Association)
+
+Customer(name,location, address,..) ---- Many --- Order (orderNo, orderDate, orderAmt,..)
+
+Order -- Many -- Product (producrtId, productName, price, desc...)
+
+Room Building
+
+1 Room - 1 Building
+1 Building -- N Rooms
+
+1 	- M
+M 	- 1
+Student Trainer
+
+Laptop(srNo) 		SSD (ssdSerialNo, make, imported, year, capacity)
 
 
 

@@ -1,0 +1,7 @@
+E:\siemens_ta_22ndMarch2021\codes\day-6\HasARelationshipDemo\HasARelationshipDemo\bin\Debug\HasARelationshipDemo.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-6\HasARelationshipDemo\HasARelationshipDemo\bin\Debug\HasARelationshipDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-6\HasARelationshipDemo\HasARelationshipDemo\bin\Debug\HasARelationshipDemo.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-6\HasARelationshipDemo\HasARelationshipDemo\obj\Debug\HasARelationshipDemo.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-6\HasARelationshipDemo\HasARelationshipDemo\obj\Debug\HasARelationshipDemo.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-6\HasARelationshipDemo\HasARelationshipDemo\obj\Debug\HasARelationshipDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-6\HasARelationshipDemo\HasARelationshipDemo\obj\Debug\HasARelationshipDemo.pdb
