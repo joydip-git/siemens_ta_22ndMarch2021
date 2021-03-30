@@ -1,0 +1,8 @@
+1. Object class and it's methods:
+	Equals (virtual)
+	GetHashCode (virtual)
+2. namespace
+3. method argument related keywords (ref, out)
+4. enum
+5. struct
+6. sealed

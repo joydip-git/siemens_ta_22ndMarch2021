@@ -1,0 +1,16 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Maruti id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/SerializationApp.Entities/SerializationApp.Entities%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<hasSixthGear>false</hasSixthGear>
+<Car_x002B_modelName id="ref-3">WagonR VXI</Car_x002B_modelName>
+<Car_x002B_bodyColor id="ref-4">Grey</Car_x002B_bodyColor>
+<Car_x002B_hasAc>true</Car_x002B_hasAc>
+<Car_x002B_make id="ref-5">Maruti</Car_x002B_make>
+<Car_x002B_carAudio href="#ref-6"/>
+</a1:Maruti>
+<a1:AudioSystem id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/SerializationApp.Entities/SerializationApp.Entities%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<modelName id="ref-7">Sony Audio 5</modelName>
+<make id="ref-8">Sony</make>
+</a1:AudioSystem>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

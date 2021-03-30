@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Maruti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModelName>WagonR VXI</ModelName>
+  <BodyColor>Grey</BodyColor>
+  <HasAc>true</HasAc>
+  <Make>Maruti</Make>
+  <CarAudio>
+    <ModelName>Sony Audio 5</ModelName>
+    <Make>Sony</Make>
+  </CarAudio>
+  <HasSixthGear>false</HasSixthGear>
+</Maruti>

@@ -1,0 +1,6 @@
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.Entities\bin\Debug\SerializationApp.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.Entities\bin\Debug\SerializationApp.Entities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.Entities\obj\Debug\SerializationApp.Entities.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.Entities\obj\Debug\SerializationApp.Entities.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.Entities\obj\Debug\SerializationApp.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.Entities\obj\Debug\SerializationApp.Entities.pdb

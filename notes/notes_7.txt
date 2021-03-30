@@ -4,11 +4,8 @@
 	GetHashCode (virtual)
 	ToString (virtual)
 	GetType
-3. namespace
-4. method argument related keywords (ref, out)
-5. enum
-6. struct
-7. sealed
+3. Refelction
+4. Serialization
 
 static:
 a. without creating any instance lets'assign the value to static data member(s)
@@ -85,6 +82,40 @@ Reflection:
 a. Runtime Type Discovery: extracting metadata/information about the assembly, the types of assembly, and members of the types
 b. Dynamic Creation of object using metadata of class
 c. Dynamic invocation of methods, properties etc.
+
+
+Serialization:
+-------------------------------------------------------
+Persisting an state (value and metadata) of an object graph
+
+All types in an object graph must be marked with Serializable attribute to demand support for serialization of an object from CLR
+
+Formats:
+	1. Binary: serializes info of data members NOT properties, info of assembly, class can be public or internal
+	2. SOAP (Simple Object Access Protocol): serializes info of data members NOT properties, info of assembly, class can be public or internal
+	3. XML: serializes info of NOT data members BUT properties, DOES NOT serializes info of assembly, class must be public
+	4. JSON (JavaScript Object Notation)
+	(5. Custom format..)
+BCL types:
+	1. BinaryFormatter (System.Runtime.Serialization.Formatters.Binary)
+	2. SoapFormatter (System.Runtime.Serialization.Formatters.Soap.dll - System.Runtime.Serialization.Formatters.Soap)
+	3. XmlSerializer (System.Xml)
+	4. JosnSerializer (...)
+
+Common Methods: Serialize/DeSerialize
+
+Attribiutes:
+	Special type of class to carry certain instruction to compiler and runtime, such Serialize a certain object
+	Every attribute class has a Target (where this attribute can be used)
+		- class (Serializable, TestClass)
+		- method
+		- property
+		- data member
+
+Serlaize HRMSAPP developer and hr objects present in the arry
+
+
+
 
 
 
