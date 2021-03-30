@@ -27,6 +27,7 @@ namespace HRMSAPP.Entities
         }
         /**
          *  public virtual string GetInformation()
+         *  public override string ToString()
         {
             //string template/ templated string/ string interpolation
             //C# 6.0 - .Net Frameowrk 4.6

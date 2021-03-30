@@ -1,0 +1,6 @@
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.Entities\bin\Debug\ReflectionDemo.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.Entities\bin\Debug\ReflectionDemo.Entities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.Entities\obj\Debug\ReflectionDemo.Entities.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.Entities\obj\Debug\ReflectionDemo.Entities.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.Entities\obj\Debug\ReflectionDemo.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.Entities\obj\Debug\ReflectionDemo.Entities.pdb

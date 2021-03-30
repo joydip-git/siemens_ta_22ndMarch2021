@@ -10,6 +10,7 @@
 6. struct
 7. sealed
 
+static:
 a. without creating any instance lets'assign the value to static data member(s)
 	 - use static property or method to assign value before any object is created
 
@@ -41,6 +42,51 @@ static readonly yes		yes		no		no	no		no		no
 const		yes		no		no		no	no		no		no
 (instance)	yes		no		yes		no	yes		no		yes
 (instance readonly)yes		no		yes		no	no		no		no
+
+
+Object class:
+----------------------------------------------------------------------
+class A //:Object
+{}
+
+class B: A
+{
+}
+
+Conversion between any type and object type:
+1. RT --> RT
+upcasting:
+object obj = new A();
+downcasting:
+A objA = (A)obj;
+
+A objB = new B();
+object objB1 = objB;
+
+
+interface IA //:Object
+
+1. RT --> VT
+VT --> RT (Boxing)
+int a = 12;
+object obInt = a;
+
+RT-->VT (Unboxing)
+int b = (int)obInt;
+
+Object class members: (instance)
+----------------------------------------------------------------------
+virtual int GetHashCode()
+virtual bool Equals(object obj)
+virtual string ToString()
+Type GetType(): returns information about the type of the instance (through a Type class object)
+
+Reflection:
+a. Runtime Type Discovery: extracting metadata/information about the assembly, the types of assembly, and members of the types
+b. Dynamic Creation of object using metadata of class
+c. Dynamic invocation of methods, properties etc.
+
+
 
 
 

@@ -53,17 +53,18 @@ namespace HRMSAPP.UserInterface
             //InsertRecord(repository);
             //ShowRecords(repository);
 
-            //Developer developer = new Developer(1, "anil", "CITA", 1000, 2000, 3000, 4000);
-            //Hr hr = new Hr(2, "sunil", "CITA", 1500, 2500, 3500, 4500);
-            //PrintInfo(developer);
-            //PrintInfo(hr);
+            Developer developer = new Developer(1, "anil", "CITA", 1000, 2000, 3000, 4000);
+            Hr hr = new Hr(2, "sunil", "CITA", 1500, 2500, 3500, 4500);
+            PrintInfo(developer);
+            PrintInfo(hr);
         }
 
-        //static void PrintInfo(Employee employee)
-        //{
-        //    employee.CalculateSalary();
-        //    Console.WriteLine(employee.GetInformation());
-        //}   
+        static void PrintInfo(Employee employee)
+        {
+            employee.CalculateSalary();
+            //Console.WriteLine(employee.GetInformation());
+            Console.WriteLine(employee);
+        }
         /*
         static void PrintInfo(Developer developer)
         {
@@ -80,7 +81,8 @@ namespace HRMSAPP.UserInterface
         {
             foreach (Employee employee in repository)
             {
-                Console.WriteLine($"Salay of {employee.EmployeeName} is {employee.EmployeeTotalSalary}");
+                //Console.WriteLine($"Salay of {employee.EmployeeName} is {employee.EmployeeTotalSalary}");
+                Console.WriteLine(employee);
             }
         }
     }

@@ -1,0 +1,7 @@
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.UI\bin\Debug\ReflectionDemo.UI.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.UI\bin\Debug\ReflectionDemo.UI.exe
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.UI\bin\Debug\ReflectionDemo.UI.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.UI\obj\Debug\ReflectionDemo.UI.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.UI\obj\Debug\ReflectionDemo.UI.exe
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.UI\obj\Debug\ReflectionDemo.UI.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\ReflectionDemo.UI\obj\Debug\ReflectionDemo.UI.csprojAssemblyReference.cache

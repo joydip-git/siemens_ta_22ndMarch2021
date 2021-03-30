@@ -1,0 +1,16 @@
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\CalculationTestLib.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\CalculationTestLib.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\ReflectionDemo.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\ReflectionDemo.Entities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\obj\Debug\CalculationTestLib.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\obj\Debug\CalculationTestLib.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\obj\Debug\CalculationTestLib.csproj.CopyComplete
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\obj\Debug\CalculationTestLib.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\ReflectionDemo\CalculationTestLib\obj\Debug\CalculationTestLib.pdb

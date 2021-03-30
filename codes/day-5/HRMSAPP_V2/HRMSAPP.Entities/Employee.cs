@@ -39,8 +39,8 @@
         public decimal EmployeeBasicPayment { get => employeeBasicPayment; set => employeeBasicPayment = value; }
         public decimal EmployeeDaPayemnt { get => employeeDaPayemnt; set => employeeDaPayemnt = value; }
         public decimal EmployeeHraPayment { get => employeeHraPayment; set => employeeHraPayment = value; }
-        public decimal EmployeeTotalSalary 
-        { 
+        public decimal EmployeeTotalSalary
+        {
             get => employeeTotalSalary;
             //protected set => employeeTotalSalary = value;
         }
@@ -55,7 +55,8 @@
             employeeTotalSalary = employeeBasicPayment + employeeDaPayemnt + employeeHraPayment;
             //return employeeTotalSalary;
         }
-        public virtual string GetInformation()
+        //public virtual string GetInformation()
+        public override string ToString()
         {
             //string template/ templated string/ string interpolation
             //C# 6.0 - .Net Frameowrk 4.6
