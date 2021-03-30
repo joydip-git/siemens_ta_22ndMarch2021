@@ -1,0 +1,7 @@
+E:\siemens_ta_22ndMarch2021\codes\day-7\StaticDemo\StaticDemo\bin\Debug\StaticDemo.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-7\StaticDemo\StaticDemo\bin\Debug\StaticDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-7\StaticDemo\StaticDemo\bin\Debug\StaticDemo.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-7\StaticDemo\StaticDemo\obj\Debug\StaticDemo.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\StaticDemo\StaticDemo\obj\Debug\StaticDemo.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\StaticDemo\StaticDemo\obj\Debug\StaticDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-7\StaticDemo\StaticDemo\obj\Debug\StaticDemo.pdb

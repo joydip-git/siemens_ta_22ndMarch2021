@@ -9,3 +9,43 @@
 5. enum
 6. struct
 7. sealed
+
+a. without creating any instance lets'assign the value to static data member(s)
+	 - use static property or method to assign value before any object is created
+
+b. or, when the first instance is created, then the static member(s) is/are assigned value. 
+	- write a constructor in the class which will be responsible to assign value to ONLY static member(s) and also that constructor needs to be executed ONLY ONCE, during the first instance/object creation, will NOT be invoked next time onwards when you create further instances
+
+		-- Static constructor
+			- you do not use any access specifier with it, NOT even public			
+			- this ctor is not invoked explicitly while creating instance 
+			- this ctor can't be overloaded
+			- will be responsible to assign value to ONLY static member(s)
+			- executed ONLY ONCE, during the first instance/object creation or even before any instance creation provided you have used the class (may be you have called a static property or a static method), will NOT be invoked next time onwards when you create further instances
+
+c. field (data member) initialization
+
+Now after this no matter you create thousands of objects, the static member(s) will NOT be assigned value anymore.
+
+You need one time value assignment to static member(s)
+
+
+
+static --> data member, constructor, proprty, method
+who can assign value to static and const (which is by default static) and non-static members within the class?
+
+kewyword field-initialization	static-ctor instance-ctor static-prop instance-prop static-method instance-method
+-----------------------------------------------------------------------------------------------------------------------
+static		yes		yes		yes		yes	yes		yes		yes
+static readonly yes		yes		no		no	no		no		no
+const		yes		no		no		no	no		no		no
+(instance)	yes		no		yes		no	yes		no		yes
+(instance readonly)yes		no		yes		no	no		no		no
+
+
+
+
+
+
+
+
