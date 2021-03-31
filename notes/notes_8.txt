@@ -4,20 +4,6 @@
 4. generic collection classes - List<T>, HashSet<T>, Dictionary<TKey,TValue> and SortedList<TKey,TValue>
 
 
-1. Object class and it's methods:
-	Equals (virtual)
-	GetHashCode (virtual)
-2. method argument related keywords (ref, out)
-3. enum
-4. struct
-5. sealed
-6. File Handling
-7. Attributes
-8. Exceptions
-9. Delegates
-10.LINQ
-11. GC
-
 C# 1.0 (2002) - Collection classes
 ArrayList
 HashTable
