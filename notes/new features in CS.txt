@@ -1,0 +1,24 @@
+New features in C#:
+   2.0
+	 - Generic Collection classes
+	 - Generic 
+	 - Nullable Type (Nullable<int> or int?)
+	 - anonymous method
+   3.0 
+	- Extension Method
+	- Object Initializer 
+	- Collection Initializer
+	- Implicitly Tyoed local variable
+	- anonymous type
+	- Lambda Expression
+	- Auto-implemented Properties
+   3.5
+	- LINQ
+   4.0
+	- Named arguments
+	- Optional arguments with default value
+   5.0
+	- async and await
+
+   6.0
+	- string interpolation ($"{}")

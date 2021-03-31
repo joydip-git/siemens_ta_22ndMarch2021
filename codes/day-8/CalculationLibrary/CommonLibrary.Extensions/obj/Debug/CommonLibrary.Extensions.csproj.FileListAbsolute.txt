@@ -1,0 +1,5 @@
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CommonLibrary.Extensions\bin\Debug\CommonLibrary.Extensions.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CommonLibrary.Extensions\bin\Debug\CommonLibrary.Extensions.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CommonLibrary.Extensions\obj\Debug\CommonLibrary.Extensions.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CommonLibrary.Extensions\obj\Debug\CommonLibrary.Extensions.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CommonLibrary.Extensions\obj\Debug\CommonLibrary.Extensions.pdb

@@ -1,0 +1,12 @@
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\bin\Debug\Client.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\bin\Debug\Client.exe
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\bin\Debug\Client.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\bin\Debug\CommonLibrary.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\bin\Debug\CommonLibrary.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\obj\Debug\Client.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\obj\Debug\Client.csproj.CopyComplete
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\obj\Debug\Client.exe
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\obj\Debug\Client.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\bin\Debug\CommonLibrary.Extensions.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Client\bin\Debug\CommonLibrary.Extensions.pdb

@@ -1,0 +1,6 @@
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericTypes\bin\Debug\GenericTypes.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericTypes\bin\Debug\GenericTypes.exe
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericTypes\bin\Debug\GenericTypes.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericTypes\obj\Debug\GenericTypes.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericTypes\obj\Debug\GenericTypes.exe
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericTypes\obj\Debug\GenericTypes.pdb

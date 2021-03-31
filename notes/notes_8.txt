@@ -1,14 +1,22 @@
+1. namespace
+2. Extension Method
+3. generic - method, class, interface, generic with constraints
+4. generic collection classes - List<T>, HashSet<T>, Dictionary<TKey,TValue> and SortedList<TKey,TValue>
+
+
 1. Object class and it's methods:
 	Equals (virtual)
 	GetHashCode (virtual)
-2. namespace
-3. method argument related keywords (ref, out)
-4. enum
-5. struct
-6. sealed
-File Handling
-Attributes
-Exceptions
+2. method argument related keywords (ref, out)
+3. enum
+4. struct
+5. sealed
+6. File Handling
+7. Attributes
+8. Exceptions
+9. Delegates
+10.LINQ
+11. GC
 
 C# 1.0 (2002) - Collection classes
 ArrayList
@@ -62,6 +70,9 @@ Namespace:
 	- logical scope in a physical application to
 		- segregate types (classes, interfaces, enums, structs, delegates etc.)
 		- aggregate the types
+			- putting types with similar nature (data access) together
+				 - in the same assmebly under same namespace
+				 - in different assemblies BUT under same namespace
 
 Utility classes:
 	- declared with static keyword

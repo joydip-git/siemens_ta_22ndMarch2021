@@ -1,0 +1,6 @@
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericCollectionClasses\bin\Debug\GenericCollectionClasses.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericCollectionClasses\bin\Debug\GenericCollectionClasses.exe
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericCollectionClasses\bin\Debug\GenericCollectionClasses.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericCollectionClasses\obj\Debug\GenericCollectionClasses.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericCollectionClasses\obj\Debug\GenericCollectionClasses.exe
+E:\siemens_ta_22ndMarch2021\codes\day-8\GenericConcept\GenericCollectionClasses\obj\Debug\GenericCollectionClasses.pdb
