@@ -1,0 +1,12 @@
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\bin\Debug\Swiggy.ClientUI.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\bin\Debug\Swiggy.ClientUI.exe
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\bin\Debug\Swiggy.ClientUI.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\bin\Debug\Swiggy.PaymentModule.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\bin\Debug\Swiggy.PaymentModule.Extension.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\bin\Debug\Swiggy.PaymentModule.Extension.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\bin\Debug\Swiggy.PaymentModule.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\obj\Debug\Swiggy.ClientUI.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\obj\Debug\Swiggy.ClientUI.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\obj\Debug\Swiggy.ClientUI.csproj.CopyComplete
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\obj\Debug\Swiggy.ClientUI.exe
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.ClientUI\obj\Debug\Swiggy.ClientUI.pdb

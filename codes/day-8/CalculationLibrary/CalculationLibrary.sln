@@ -5,6 +5,18 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationLibrary", "CalculationLibrary\CalculationLibrary.csproj", "{C6C509D6-AB79-42B2-AC54-301F308B2C64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationClient", "CalculationClient\CalculationClient.csproj", "{C05BDEC9-0C72-4B88-BD1B-14C2C8292D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationLibrary.Extension", "CalculationLibrary.Extension\CalculationLibrary.Extension.csproj", "{9DFDB65B-5BFF-49A7-B430-3CFA53C71A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swiggy.PaymentModule", "Swiggy.PaymentModule\Swiggy.PaymentModule.csproj", "{5EDE8986-EDC8-41D7-89B9-AD104877DF80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swiggy.PaymentModule.Extension", "Swiggy.PaymentModule.Extension\Swiggy.PaymentModule.Extension.csproj", "{FBF13120-3ECC-4DC2-BA32-F4E4059CA875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swiggy.ClientUI", "Swiggy.ClientUI\Swiggy.ClientUI.csproj", "{F68F934F-64EC-43A2-9FE8-4C8CDB9BD3C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{7360F004-6CA1-4388-8863-D7E146BB23EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{C6C509D6-AB79-42B2-AC54-301F308B2C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6C509D6-AB79-42B2-AC54-301F308B2C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6C509D6-AB79-42B2-AC54-301F308B2C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05BDEC9-0C72-4B88-BD1B-14C2C8292D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05BDEC9-0C72-4B88-BD1B-14C2C8292D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05BDEC9-0C72-4B88-BD1B-14C2C8292D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05BDEC9-0C72-4B88-BD1B-14C2C8292D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFDB65B-5BFF-49A7-B430-3CFA53C71A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFDB65B-5BFF-49A7-B430-3CFA53C71A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFDB65B-5BFF-49A7-B430-3CFA53C71A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFDB65B-5BFF-49A7-B430-3CFA53C71A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EDE8986-EDC8-41D7-89B9-AD104877DF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EDE8986-EDC8-41D7-89B9-AD104877DF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EDE8986-EDC8-41D7-89B9-AD104877DF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EDE8986-EDC8-41D7-89B9-AD104877DF80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF13120-3ECC-4DC2-BA32-F4E4059CA875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF13120-3ECC-4DC2-BA32-F4E4059CA875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF13120-3ECC-4DC2-BA32-F4E4059CA875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF13120-3ECC-4DC2-BA32-F4E4059CA875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68F934F-64EC-43A2-9FE8-4C8CDB9BD3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68F934F-64EC-43A2-9FE8-4C8CDB9BD3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68F934F-64EC-43A2-9FE8-4C8CDB9BD3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68F934F-64EC-43A2-9FE8-4C8CDB9BD3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7360F004-6CA1-4388-8863-D7E146BB23EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7360F004-6CA1-4388-8863-D7E146BB23EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7360F004-6CA1-4388-8863-D7E146BB23EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7360F004-6CA1-4388-8863-D7E146BB23EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

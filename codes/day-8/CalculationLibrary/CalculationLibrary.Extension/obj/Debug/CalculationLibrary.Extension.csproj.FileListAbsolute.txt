@@ -1,0 +1,9 @@
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CalculationLibrary.Extension\bin\Debug\CalculationLibrary.Extension.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CalculationLibrary.Extension\bin\Debug\CalculationLibrary.Extension.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CalculationLibrary.Extension\obj\Debug\CalculationLibrary.Extension.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CalculationLibrary.Extension\obj\Debug\CalculationLibrary.Extension.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CalculationLibrary.Extension\obj\Debug\CalculationLibrary.Extension.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CalculationLibrary.Extension\bin\Debug\CalculationLibrary.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CalculationLibrary.Extension\bin\Debug\CalculationLibrary.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CalculationLibrary.Extension\obj\Debug\CalculationLibrary.Extension.csproj.CopyComplete
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\CalculationLibrary.Extension\obj\Debug\CalculationLibrary.Extension.csprojAssemblyReference.cache

@@ -1,0 +1,5 @@
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.PaymentModule\bin\Debug\Swiggy.PaymentModule.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.PaymentModule\bin\Debug\Swiggy.PaymentModule.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.PaymentModule\obj\Debug\Swiggy.PaymentModule.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.PaymentModule\obj\Debug\Swiggy.PaymentModule.dll
+E:\siemens_ta_22ndMarch2021\codes\day-8\CalculationLibrary\Swiggy.PaymentModule\obj\Debug\Swiggy.PaymentModule.pdb

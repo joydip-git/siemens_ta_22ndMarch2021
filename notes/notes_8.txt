@@ -9,3 +9,62 @@
 File Handling
 Attributes
 Exceptions
+
+C# 1.0 (2002) - Collection classes
+ArrayList
+HashTable
+SortedList
+Stack
+Queue
+......
+
+a. unnecessary waste of time in case of boxing and unboxing
+b. sorting the elements is really difficult
+c. collection of heterogeneous elements all of which are boxed in Object data type
+d. Sort method will throw exception if the collection is not of homogeneous elements
+
+C# 2.0 (2005) - Generic Collection classes
+List<T>
+Dictionary<TKey,TValue>
+SortedList<TKey,TValue>
+Stack<T>
+Queue<T>
+HashSet<T>
+........
+a. NO unnecessary waste of time in case of boxing and unboxing
+b. sorting the elements is really easy, just like an array
+c. Sort method will NOT throw exception since the collection is of homogeneous elements
+d. if not homogeneous elements you will get compilation error
+
+Count poperty of Collection and generic collection Vs. Length of array
+------------------------------------------------------------------------
+Count returns exactly how many elements are present at a moment in a collection
+Length simply tells you about the capacity of the array
+
+C# 3.0 - LINQ concept was introduced
+Extension Method - C# 3.0- 2007
+	- create an utility class (declared with static keyword)
+	- define the aditional methods (static here) whihc will be part of the target class
+	- as the firt parameter in those additional methods, "this <class-name> arg" should be mentioned apart from other necessary parameters
+	- Example:
+		public static class CalcuationExtension
+    		{       
+        		public static int Multiply(this Calculation calculation, int a, int b)
+        		{
+           			return (a * b);
+        		}
+        		public static int Divide(this Calculation calculation, int a, int b)
+        		{
+            			return (a / b);
+       			}
+    		}
+Namespace:
+	- logical scope in a physical application to
+		- segregate types (classes, interfaces, enums, structs, delegates etc.)
+		- aggregate the types
+
+Utility classes:
+	- declared with static keyword
+	- can have only static members (static data, ctor, proper, methods)
+	- you can't create instance of this class (just like abstract class but for different reason and that is there is no instance member in this type of class)
+	- Console, Convert etc.
