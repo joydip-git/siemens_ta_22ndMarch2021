@@ -19,5 +19,10 @@ namespace SerializationApp.Entities
 
         public string ModelName { get => modelName; set => modelName = value; }
         public string Make { get => make; set => make = value; }
+        
+        public override string ToString()
+        {
+            return $"Audio Model Name: {modelName}, Make:{make}";
+        }
     }
 }

@@ -40,12 +40,21 @@ namespace SerializationApp.SerializerUI
             xmlFormatter.Serialize(xmlFileStream, marutiObj);
         }
         static void Main()
-        {            
+        {   
+            /*
             AudioSystem sonyAudio = new AudioSystem("Sony Audio 5", "Sony");
             Maruti wagonR = new Maruti("WagonR VXI", "Grey", true, "Maruti", sonyAudio, false);
             //SerializeInBinary(marutiObj: wagonR);
             //SerializeInSoap(wagonR);
             SerializeInXml(wagonR);
+            */
+            Type tMaruti = typeof(Maruti);
+            Type tCar = typeof(Car);
+            Type tAudio = typeof(AudioSystem);
+
+            Type[] allTypes = new Type[] { tMaruti, tCar, tAudio };
+            BinaryFormatter binaryFormatter = new BinaryFormatter();
+            binaryFormatter.Serialize(new FileStream(@"../../types.bin", FileMode.OpenOrCreate), allTypes);
         }
     }
 }

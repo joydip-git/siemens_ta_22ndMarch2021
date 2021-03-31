@@ -17,5 +17,10 @@ namespace SerializationApp.Entities
         }
 
         public bool HasSixthGear { get => hasSixthGear; set => hasSixthGear = value; }
+
+        public override string ToString()
+        {
+            return $"{base.ToString()}, Has Sixth Gear{HasSixthGear}";
+        }
     }
 }

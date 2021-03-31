@@ -6,3 +6,6 @@
 4. enum
 5. struct
 6. sealed
+File Handling
+Attributes
+Exceptions

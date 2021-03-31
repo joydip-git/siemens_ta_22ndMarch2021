@@ -112,8 +112,30 @@ Attribiutes:
 		- property
 		- data member
 
-Serlaize HRMSAPP developer and hr objects present in the arry
+DeSerialization:
+--------------------------------
+Creating object out of the serialzed state of an object/object graph
 
+Serlaize HRMSAPP developer and hr objects present in the array
+
+
+override:
+	 - virtual
+	 - override
+	 - abstract
+
+class A -->  virtual/abstract void Foo()
+class B:A--> override void Foo()//overrideing immediate base class's virtual/abstract method
+class C:B--> override void Foo()//overrideing immediate base class's already overriden method
+
+C obj1 = new C();
+obj1.Foo();
+
+B obj2 = obj1;
+obj2.Foo();
+
+A obj3 = obj1;
+obj3.Foo();
 
 
 

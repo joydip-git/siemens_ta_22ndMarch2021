@@ -1,0 +1,10 @@
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.DeSerializationUI\bin\Debug\SerializationApp.DeSerializationUI.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.DeSerializationUI\bin\Debug\SerializationApp.DeSerializationUI.exe
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.DeSerializationUI\bin\Debug\SerializationApp.DeSerializationUI.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.DeSerializationUI\bin\Debug\SerializationApp.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.DeSerializationUI\bin\Debug\SerializationApp.Entities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.DeSerializationUI\obj\Debug\SerializationApp.DeSerializationUI.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.DeSerializationUI\obj\Debug\SerializationApp.DeSerializationUI.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.DeSerializationUI\obj\Debug\SerializationApp.DeSerializationUI.csproj.CopyComplete
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.DeSerializationUI\obj\Debug\SerializationApp.DeSerializationUI.exe
+E:\siemens_ta_22ndMarch2021\codes\day-7\SerializationApp\SerializationApp.DeSerializationUI\obj\Debug\SerializationApp.DeSerializationUI.pdb

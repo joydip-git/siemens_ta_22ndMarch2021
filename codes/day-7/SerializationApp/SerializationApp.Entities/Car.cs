@@ -3,7 +3,7 @@
 namespace SerializationApp.Entities
 {
     [Serializable]
-    public class Car
+    public class Car //:Object
     {
         string modelName;
         string bodyColor;
@@ -29,5 +29,10 @@ namespace SerializationApp.Entities
         public bool HasAc { get => hasAc; set => hasAc = value; }
         public string Make { get => make; set => make = value; }
         public AudioSystem CarAudio { get => carAudio; set => carAudio = value; }
+
+        public override string ToString()
+        {
+            return $"Model Name: {modelName}, Color: {bodyColor}, AC? {hasAc}, Make:{make}, Audio:{carAudio}";
+        }
     }
 }
