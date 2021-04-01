@@ -11,3 +11,19 @@
 9. Delegates
 10.LINQ
 11. GC
+
+sorting:
+	- internalization: the logic for comparison between two elements in a collection is written inside the element itself
+		- IComparable => int CompareTo(object obj) [System]
+		- IComparable<in T> => int CompareTo(T other) [System]
+		Implement anyone of these interfaces in the element
+		Then you can call Sort() method of collection where those element instances are present
+
+	- externalization: the logic for comparison between two elements in a collection is written outside the element, at a separate place
+		- IComparer => int Compare(object x, object y) [System.Collections]
+		- IComparer<in T> => int Compare(T x, T y) [System.Collections.Generic]
+		Implement anyone of these interfaces in an external class (NOT the element itself, which are being compared)
+		Create an instance of the comparer class which has implemented any of the above two interfaces
+		Then you can call Sort() method of collection where those element instances are present and pass the instance of comparer class as an argument
+
+
