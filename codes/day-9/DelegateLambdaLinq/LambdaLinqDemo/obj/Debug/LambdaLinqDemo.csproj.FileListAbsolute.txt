@@ -1,0 +1,7 @@
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\LambdaLinqDemo\bin\Debug\LambdaLinqDemo.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\LambdaLinqDemo\bin\Debug\LambdaLinqDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\LambdaLinqDemo\bin\Debug\LambdaLinqDemo.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\LambdaLinqDemo\obj\Debug\LambdaLinqDemo.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\LambdaLinqDemo\obj\Debug\LambdaLinqDemo.exe
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\LambdaLinqDemo\obj\Debug\LambdaLinqDemo.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\LambdaLinqDemo\obj\Debug\LambdaLinqDemo.csprojAssemblyReference.cache

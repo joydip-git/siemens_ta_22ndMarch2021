@@ -1,0 +1,10 @@
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\siemens_ta_22ndMarch2021\codes\day-9\DelegateLambdaLinq\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

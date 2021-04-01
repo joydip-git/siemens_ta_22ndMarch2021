@@ -26,4 +26,45 @@ sorting:
 		Create an instance of the comparer class which has implemented any of the above two interfaces
 		Then you can call Sort() method of collection where those element instances are present and pass the instance of comparer class as an argument
 
+Callback Mechanism:
+----------------------------------------
+//1, declare prototype of the function
+bool IsEven(int x)
+
+Foo()
+{
+	//2. create an object of some class who can store address of that function
+	//3. pass the object to Foo2
+	//Foo2(reference to Foo1)
+	Foo2(reference of IsEven)
+}
+Foo1()
+{
+}
+Foo2(reference of a method[bool <name>(int number)])
+{
+	 reference of a method();
+}
+
+a. Threading --> Tasks and Asynchronous method invocation
+b. Plain Callback
+c. Event handling
+d. LINQ
+
+
+Delegate: how to refer a method, how to invoke that method using the reference of the method
+----------------------------------------------------------------------------------------------------
+
+
+Threads:
+	ThreadPool
+
+
+
+
+
+
+	
+
+
 
