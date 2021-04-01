@@ -57,7 +57,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Comparison.txt" />
     <Content Include="NewFeatures.txt" />
+    <Content Include="SetOfReferenceTypes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,44 +12,30 @@ namespace PMSAPP.UserInterface
     {
         static void Main()
         {
-            var products = new List<Product>
+            var products = CreateList();
+            SortProducts(products);
+            ShowProducts(products);
+        }
+        static List<Product> CreateList()
+        {
+            //return new List<Product>
+            //{
+            //    new Product { ProductId = 2, ProductName = "Dell XPS", Price = 167000, Description = "new version of laptop from dell" },
+            //    new Product { ProductId = 1, ProductName = "HP Probook", Price = 145000, Description = "new version of laptop from HP" },
+            //    new Product { ProductId = 3, ProductName = "Lenovo Beast", Price = 135000, Description = "new version of laptop from Lenovo" }
+            //};
+            HashSet<Product> products = new HashSet<Product>
             {
-                new Product { ProductId = 2, ProductName = "Dell XPS", Price = 167000, Description = "new version of laptop from dell" },
-                new Product { ProductId = 1, ProductName = "HP Probook", Price = 145000, Description = "new version of laptop from HP" },
-                new Product { ProductId = 3, ProductName = "Lenovo Beast", Price = 135000, Description = "new version of laptop from Lenovo" }
-            };
-            //for (int i = 0; i < products.Count; i++)
-            //{
-            //    for (int j = i + 1; j < products.Count; j++)
-            //    {
-            //        if (products[i].CompareTo(products[j]) > 0)
-            //        {
-            //            Product temp = products[i];
-            //            products[i] = products[j];
-            //            products[j] = temp;
-            //        }
-            //    }
-            //}
-            //products.Sort();
+               new Product { ProductId = 2, ProductName = "Dell XPS", Price = 167000, Description = "new version of laptop from dell" },
+               new Product { ProductId = 1, ProductName = "HP Probook", Price = 145000, Description = "new version of laptop from HP" },
+               new Product { ProductId = 3, ProductName = "Lenovo Beast", Price = 135000, Description = "new version of laptop from Lenovo" }
 
-            PrintSortChoice();
-            int choice = GetChoice();
-
-            ProductComparison productComparison = new ProductComparison(choice);
-            //for (int i = 0; i < products.Count; i++)
-            //{
-            //    for (int j = i + 1; j < products.Count; j++)
-            //    {
-            //      //if (products[i].CompareTo(products[j]) > 0)
-            //        if (productComparison.Compare(products[i], products[j]) > 0)
-            //        {
-            //            Product temp = products[i];
-            //            products[i] = products[j];
-            //            products[j] = temp;
-            //        }
-            //    }
-            //}
-            products.Sort(productComparison);
+            };            
+            List<Product> list = products.ToList<Product>();
+            return list;
+        }
+        static void ShowProducts(List<Product> products)
+        {
             foreach (Product item in products)
             {
                 Console.WriteLine(item);
@@ -66,6 +52,13 @@ namespace PMSAPP.UserInterface
         {
             Console.WriteLine("1. sort by name");
             Console.WriteLine("2. sort by price");
+        }
+        static void SortProducts(List<Product> products)
+        {
+            PrintSortChoice();
+            int choice = GetChoice();
+            ProductComparison productComparison = new ProductComparison(choice);
+            products.Sort(productComparison);
         }
     }
 }

@@ -1,0 +1,20 @@
+﻿            Product p1 = new Product { ProductId = 1, ProductName = "Dell XPS", Price = 167000, Description = "new version of laptop from dell" };
+            Product p2 = new Product { ProductId = 2, ProductName = "Dell XPS", Price = 167000, Description = "new version of laptop from dell" };
+
+            //bool status = p1.Equals(p2);
+            //Console.WriteLine(status);
+            //Product p2 = p1;
+            HashSet<Product> products = new HashSet<Product>
+            {
+               p1,p2
+            };
+            //int hashP1 = p1.GetHashCode();
+            //int hasP2 = p2.GetHashCode();
+
+            //if(hashP1==hashP2){
+            //bool status = p1.Equals(p2);}
+
+            foreach (Product item in products)
+            {
+                Console.WriteLine(item);
+            }

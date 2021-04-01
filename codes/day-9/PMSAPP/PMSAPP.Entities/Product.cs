@@ -31,12 +31,41 @@ namespace PMSAPP.Entities
             return $"Id:{ProductId}, Name:{ProductName}, Price:{Price}, Description:{Description}";
         }
 
+        public override int GetHashCode()
+        {
+            int hash = this.ProductId.GetHashCode();
+            return hash;
+        }
+
+        public override bool Equals(object obj)
+        {
+            Product other = obj as Product;
+            if(this == other)
+            {
+                return true;
+            }
+
+            if (!this.ProductId.Equals(other.ProductId))
+                return false;
+
+            if (!this.ProductName.Equals(other.ProductName))
+                return false;
+
+            if (!this.Price.Equals(other.Price))
+                return false;
+
+            if (!this.Description.Equals(other.Description))
+                return false;
+
+            return true;
+        }
+
         //public int CompareTo(object obj)
         //{
         //      Product other = obj as Product;
         //      return 0;
         //}
-        
+
         public int CompareTo(Product other)
         {
             //return <0;
