@@ -1,0 +1,95 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using PMSAPP.Entities;
+
+namespace PMSAPP.UserInterface
+{
+    class Program
+    {
+        //var a;
+        //static var Test(var x)
+        //{
+
+        //}
+        static void Main()
+        {
+            // implicit typing
+            // value--> implicitly typed local variable
+            var value = 10;
+            //value = 12.34;
+
+            //var x; <--ERROR
+            //var x = null;<--ERROR
+            var product = new Product { };
+
+            // strongly typing
+            // int value = 10;
+
+            //Product dellLaptop = new Product(1) { ProductName = "Dell XPS", Price = 167000, Description = "new version of laptop from dell" };
+            //Product dellLaptop = new Product { ProductId = 2, ProductName = "Dell XPS", Price = 167000, Description = "new version of laptop from dell" };
+            //Product hpLaptop = new Product { ProductId = 1, ProductName = "HP Probook", Price = 145000, Description = "new version of laptop from HP" };
+            //Product lenevoLaptop = new Product { ProductId = 3, ProductName = "Lenovo Beast", Price = 135000, Description = "new version of laptop from Lenovo" };
+
+            //int[] arr = new int[] { 1, 2, 3 };
+
+            //int[] arr = new int[3];
+            //arr[0]=1; arr[1]=2; arr[2]=3;
+
+            //List<Product> products = new List<Product>();
+            //products.Add(dellLaptop);
+            //products.Add(hpLaptop);
+            //products.Add(lenevoLaptop);
+
+            //List<Product> products = new List<Product> { dellLaptop, hpLaptop, lenevoLaptop };
+            //List<Product> products = new List<Product>
+            //{
+            //    new Product { ProductId = 2, ProductName = "Dell XPS", Price = 167000, Description = "new version of laptop from dell" },
+            //    new Product { ProductId = 1, ProductName = "HP Probook", Price = 145000, Description = "new version of laptop from HP" },
+            //    new Product { ProductId = 3, ProductName = "Lenovo Beast", Price = 135000, Description = "new version of laptop from Lenovo" }
+            //};
+            var products = new List<Product>
+            {
+                new Product { ProductId = 2, ProductName = "Dell XPS", Price = 167000, Description = "new version of laptop from dell" },
+                new Product { ProductId = 1, ProductName = "HP Probook", Price = 145000, Description = "new version of laptop from HP" },
+                new Product { ProductId = 3, ProductName = "Lenovo Beast", Price = 135000, Description = "new version of laptop from Lenovo" }
+            };
+
+            //implicitly typed array
+            var values = new[] { 1, 2, 3, 4 };
+            foreach (var item in values)
+            {
+                Console.WriteLine(item);
+            }
+
+            //anonymous type feature
+            //create a class with two backing fields and two properties (compiler)
+            //create an object of that anonymous class created by compiler (runtime)
+            var person = new { FirstName = "anil", LastName = "gupta" };
+            Console.WriteLine(person.GetType().Name);
+            //person.FirstName = "sunil";<--ERROR
+
+            var author = new { FullName = $"{person.FirstName} {person.LastName}", BooksPublished = 10 };
+            Console.WriteLine(author.FullName);
+            var student = new { person.FirstName, person.LastName, Marks = 78 };
+
+            //var statistics = new { AveragePrice = 15005.333333M, MaxPrice = 67000.00M, MinPrice = 799.00M };
+        }
+    }
+    //class Unknown
+    //{
+    //    private readonly string _FirstName;
+    //    private readonly string _LastName;
+
+    //    public Unknown() { }
+    //    public Unknown(string FirstName, string LastName)
+    //    {
+
+    //    }
+    //    public string FirstName { get => FirstName; }
+    //    public string LastName { get => LastName; }
+    //}
+}

@@ -8,10 +8,10 @@ New features in C#:
 	- Extension Method
 	- Object Initializer 
 	- Collection Initializer
-	- Implicitly Tyoed local variable
+	- Implicitly Typed local variable
 	- anonymous type
-	- Lambda Expression
 	- Auto-implemented Properties
+	- Lambda Expression
    3.5
 	- LINQ
    4.0
@@ -22,3 +22,9 @@ New features in C#:
 
    6.0
 	- string interpolation ($"{}")
+   7/7.3
+	- 
+   8.0
+        -
+   9.0
+        -

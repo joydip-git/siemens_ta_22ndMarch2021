@@ -1,0 +1,6 @@
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.Entities\bin\Debug\PMSAPP.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.Entities\bin\Debug\PMSAPP.Entities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.Entities\obj\Debug\PMSAPP.Entities.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.Entities\obj\Debug\PMSAPP.Entities.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.Entities\obj\Debug\PMSAPP.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.Entities\obj\Debug\PMSAPP.Entities.pdb

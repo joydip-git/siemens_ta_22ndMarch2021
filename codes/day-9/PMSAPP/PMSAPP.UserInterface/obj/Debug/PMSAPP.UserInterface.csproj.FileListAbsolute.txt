@@ -1,0 +1,10 @@
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.UserInterface\bin\Debug\PMSAPP.UserInterface.exe.config
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.UserInterface\bin\Debug\PMSAPP.UserInterface.exe
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.UserInterface\bin\Debug\PMSAPP.UserInterface.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.UserInterface\bin\Debug\PMSAPP.Entities.dll
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.UserInterface\bin\Debug\PMSAPP.Entities.pdb
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.UserInterface\obj\Debug\PMSAPP.UserInterface.csprojAssemblyReference.cache
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.UserInterface\obj\Debug\PMSAPP.UserInterface.csproj.CoreCompileInputs.cache
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.UserInterface\obj\Debug\PMSAPP.UserInterface.csproj.CopyComplete
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.UserInterface\obj\Debug\PMSAPP.UserInterface.exe
+E:\siemens_ta_22ndMarch2021\codes\day-9\PMSAPP\PMSAPP.UserInterface\obj\Debug\PMSAPP.UserInterface.pdb
